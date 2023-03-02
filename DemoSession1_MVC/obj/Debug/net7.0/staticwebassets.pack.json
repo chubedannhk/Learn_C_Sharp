@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\images\\angel.png",
+      "PackagePath": "staticwebassets\\images\\angel.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\images\\girlviet.png",
+      "PackagePath": "staticwebassets\\images\\girlviet.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\js\\mylib.js",
+      "PackagePath": "staticwebassets\\js\\mylib.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DemoSession1_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DemoSession1_MVC.props",
+      "PackagePath": "build\\DemoSession1_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DemoSession1_MVC.props",
+      "PackagePath": "buildMultiTargeting\\DemoSession1_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DemoSession1_MVC.props",
+      "PackagePath": "buildTransitive\\DemoSession1_MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

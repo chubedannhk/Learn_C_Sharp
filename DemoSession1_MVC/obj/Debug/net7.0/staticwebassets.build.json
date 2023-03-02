@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "ObIXSTJA9NMr6V8F/uWQoTKb5MpiKvhMtLM4hI0TcMo=",
+  "Source": "DemoSession1_MVC",
+  "BasePath": "_content/DemoSession1_MVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoSession1_MVC\\wwwroot",
+      "Source": "DemoSession1_MVC",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession1_MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "DemoSession1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession1_MVC",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\images\\angel.png",
+      "SourceId": "DemoSession1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession1_MVC",
+      "RelativePath": "images/angel.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\angel.png"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\images\\girlviet.png",
+      "SourceId": "DemoSession1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession1_MVC",
+      "RelativePath": "images/girlviet.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\girlviet.png"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\js\\mylib.js",
+      "SourceId": "DemoSession1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession1_MVC",
+      "RelativePath": "js/mylib.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\mylib.js"
+    }
+  ]
+}

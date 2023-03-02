@@ -1,0 +1,36 @@
+﻿
+<h3 class="h3" >Index</h3>
+<h4>Razor View</h4>
+<p>hello boss nguyen hoang khai </p>
+@{
+    var id = 123;
+    var userName = "nguyenhoangkhai";
+    var price = 4.5;
+    var quantity = 3;
+    var status = true;
+}
+
+<p>In giá trị ra màn hình</p>
+id: @id </br>
+userName: @userName</br>
+price: @price</br>
+quantity: @quantity</br>
+status: @status</br>
+@*thuc hien gia cai gi thi bo vào "@()"*@
+total: @(price*quantity) </br>
+Status: @(status?"Show":"hide")
+</br>
+@* sử dụng dấu ~ để thay cho đường dẫn gốc*@
+<img src="~/images/girlviet.png" width="300" height="300" onclick="clickMe()"/>
+
+@*load anh hang loat*@
+@{
+    var photo = "angel.png";
+    var width = 300;
+    var height = 300;
+}
+
+<img src="~/images/@photo" width="@width" height="@height"/>
+@*lien ket*@
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+<script src="~/js/mylib.js"></script>
