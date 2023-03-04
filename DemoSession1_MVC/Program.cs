@@ -10,5 +10,5 @@ var app = builder.Build();
 // đi vào fodder www để lấy hình ảnh
 app.UseStaticFiles();
 //================================
-app.MapControllerRoute(name: "default", pattern: "{controller}/{action}");
+app.MapControllerRoute(name: "default", pattern: "{controller=demo}/{action=index3}");
 app.Run();

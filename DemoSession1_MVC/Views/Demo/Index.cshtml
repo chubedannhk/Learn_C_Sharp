@@ -29,8 +29,38 @@ Status: @(status?"Show":"hide")
     var width = 300;
     var height = 300;
 }
-
 <img src="~/images/@photo" width="@width" height="@height"/>
+
+</br>
+@*sử dụng câu lện điều kiện -- buổi 2*@
+@if (status)
+{
+    <span style="color:blue">Show</span>
+}
+else
+{
+    <span style="color:red">Hide</span>
+}
+</br>
+
+@{
+    var avg = 7;
+}
+@if (avg >= 8)
+{
+    <span style="color:green">A</span>
+}else if(avg >= 7)
+{
+    <span style="color:Blue">B</span>
+}else if(avg >= 5)
+{
+    <span style="color:orange">C</span>
+}
+else
+{
+    <span style="color:red">D</span>
+}
+
 @*lien ket*@
 <link href="~/css/StyleSheet.css" rel="stylesheet" />
 <script src="~/js/mylib.js"></script>
