@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-
+using System.Dynamic;
 
 namespace DemoSession1_MVC.Controllers;
 [Route("demo2")]
@@ -35,5 +35,23 @@ public class Demo2Controller : Controller
     {
       
         return View("Index4");
+    }
+    /*http://localhost:123/demo2/index5key=value&key=value */
+    //cai nay dung de lam api
+
+    [Route("index5")]
+    public IActionResult Index5(int id, string username)
+    {
+        Debug.WriteLine("id: " + id);
+        Debug.WriteLine("username: " + username);
+        return View("Index5");
+    }
+
+    // redireacttoaction : dung de su ly chuc nag gi do xong , sau do tra ve mot cai gi do
+    [Route("index6")]
+    public IActionResult Index6()
+    {
+        //xxx
+        return RedirectToAction("Index4","demo2");
     }
 }

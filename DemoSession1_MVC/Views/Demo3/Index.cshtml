@@ -1,0 +1,23 @@
+﻿<h2>Demo 3 - Index</h2>
+
+<fieldset>
+    <legend> Search By KeyWord </legend>
+    <form method="get" asp-controller="demo3" asp-action="searchByKeyword">
+        Keyword <input type="text" name="keyword"/>
+        </br>
+        <input type="submit" value="Search" />
+
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend> Search By Prices </legend>
+    <form method="get" asp-controller="demo3" asp-action="searchByPrices">
+        MIN <input type="text" name="min" />
+        </br>
+        MAX <input type="text" name="max" />
+        </br>
+        <input type="submit" value="Search" />
+
+    </form>
+</fieldset>
