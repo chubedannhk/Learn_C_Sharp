@@ -55,9 +55,9 @@ public class ProductModel
     {
         return products.Where(p => p.Price >= min && p.Price <= max).ToList();
     }
+    //public List<Product> search(string keyword, decimal minPrice, decimal maxPrice)
+    //{
+    //    return products.Where(p => p.Name.Contains(keyword) && p.Price >= minPrice && p.Price <= maxPrice).ToList();
+    //}
 }
 
-//public List<Product> search(string keyword, decimal minPrice, decimal maxPrice)
-//{
-//    return products.Where(p => p.Name.Contains(keyword) && p.Price >= minPrice && p.Price <= maxPrice).ToList();
-//}

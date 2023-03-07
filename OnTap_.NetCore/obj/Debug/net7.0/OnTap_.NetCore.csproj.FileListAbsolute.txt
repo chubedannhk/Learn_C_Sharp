@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\bin\Debug\net7.0\OnTap_.NetCore.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\bin\Debug\net7.0\OnTap_.NetCore.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\bin\Debug\net7.0\OnTap_.NetCore.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\bin\Debug\net7.0\OnTap_.NetCore.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\bin\Debug\net7.0\OnTap_.NetCore.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\OnTap_.NetCore.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\OnTap_.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\OnTap_.NetCore.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\OnTap_.NetCore.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\OnTap_.NetCore.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\OnTap_.NetCore.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\refint\OnTap_.NetCore.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\OnTap_.NetCore.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\OnTap_.NetCore.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\OnTap_.NetCore\obj\Debug\net7.0\ref\OnTap_.NetCore.dll
