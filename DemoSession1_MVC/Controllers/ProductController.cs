@@ -7,8 +7,8 @@ public class ProductController : Controller
 {
     [Route("")]
     [Route("index")]
-   // "~/" dung de khai bao thang controller nao la chay mac dinh, luu y: trong 1 project chi co [Route("~/")] de chay mac dinh thoi
-    [Route("~/")]
+    // "~/" dung de khai bao thang controller nao la chay mac dinh, luu y: trong 1 project chi co [Route("~/")] de chay mac dinh thoi
+    //  [Route("~/")]
     public IActionResult Index()
     {
         // goi den ProductModel();

@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\js\\mylib.js"
     },
     {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\upload\\0a912676366a4ce3b50156f7aae2b032.png",
+      "PackagePath": "staticwebassets\\upload\\0a912676366a4ce3b50156f7aae2b032.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\upload\\6e01cb7bf3a24fa7ab8266ebe0931c72.png",
+      "PackagePath": "staticwebassets\\upload\\6e01cb7bf3a24fa7ab8266ebe0931c72.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\upload\\e05368f622e44cc29cdd7c0651da6c2f.csv",
+      "PackagePath": "staticwebassets\\upload\\e05368f622e44cc29cdd7c0651da6c2f.csv"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DemoSession1_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

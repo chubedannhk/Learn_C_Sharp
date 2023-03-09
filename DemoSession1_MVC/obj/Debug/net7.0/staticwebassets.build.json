@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ObIXSTJA9NMr6V8F/uWQoTKb5MpiKvhMtLM4hI0TcMo=",
+  "Hash": "uA/MrzzZ8Abvtkq68WOxwgnTUncAalqmdy9HY9/wESU=",
   "Source": "DemoSession1_MVC",
   "BasePath": "_content/DemoSession1_MVC",
   "Mode": "Default",
@@ -83,6 +83,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\mylib.js"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\upload\\0a912676366a4ce3b50156f7aae2b032.png",
+      "SourceId": "DemoSession1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession1_MVC",
+      "RelativePath": "upload/0a912676366a4ce3b50156f7aae2b032.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\0a912676366a4ce3b50156f7aae2b032.png"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\upload\\6e01cb7bf3a24fa7ab8266ebe0931c72.png",
+      "SourceId": "DemoSession1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession1_MVC",
+      "RelativePath": "upload/6e01cb7bf3a24fa7ab8266ebe0931c72.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\6e01cb7bf3a24fa7ab8266ebe0931c72.png"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\upload\\e05368f622e44cc29cdd7c0651da6c2f.csv",
+      "SourceId": "DemoSession1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession1_MVC",
+      "RelativePath": "upload/e05368f622e44cc29cdd7c0651da6c2f.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\e05368f622e44cc29cdd7c0651da6c2f.csv"
     }
   ]
 }

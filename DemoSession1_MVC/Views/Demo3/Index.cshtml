@@ -21,3 +21,55 @@
 
     </form>
 </fieldset>
+
+<fieldset>
+    <legend> Form Login </legend>
+    <form method="post" asp-controller="demo3" asp-action="login">
+        Username <input type="text" name="username" />
+        </br>
+        Password <input type="password" name="password" />
+        </br>
+        <input type="submit" value="Login" />
+
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend> Emails  </legend>
+    <form method="post" asp-controller="demo3" asp-action="update">
+        Email 1 <input type="text" name="emails" />
+        </br>
+        Email 2 <input type="text" name="emails" />
+        </br>
+        Email 3 <input type="text" name="emails" />
+        </br>
+        Quantity 1 <input type="text" name="quantities" />
+        </br>
+        Quantity 2 <input type="text" name="quantities" />
+        </br>
+        Quantity 3 <input type="text" name="quantities" />
+        </br>
+        Quantity 4 <input type="text" name="quantities" />
+        </br>
+        <input type="submit" value="Update" />
+
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Upload</legend>
+    <form method="post" asp-controller="demo3" asp-action="upload" enctype="multipart/form-data">
+    File <input type="file" name="file" />
+    <br/>
+    <button type="submit" value="Upload" >Submit</button>
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Uploads</legend>
+    <form method="post" asp-controller="demo3" asp-action="uploads" enctype="multipart/form-data">
+        Files <input type="file" name="files" multiple />
+        <br />
+        <button type="submit" value="Upload">Submit</button>
+    </form>
+</fieldset>
