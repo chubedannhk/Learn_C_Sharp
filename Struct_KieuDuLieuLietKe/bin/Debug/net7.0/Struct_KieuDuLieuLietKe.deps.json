@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Struct_KieuDuLieuLietKe/1.0.0": {
+        "runtime": {
+          "Struct_KieuDuLieuLietKe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Struct_KieuDuLieuLietKe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

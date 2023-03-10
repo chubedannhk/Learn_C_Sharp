@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\bin\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\bin\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\bin\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\bin\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\bin\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\refint\Tinh_Ke_Thua_Cua_Cac_Lop.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\Tinh_Ke_Thua_Cua_Cac_Lop.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Tinh_Ke_Thua_Cua_Cac_Lop\obj\Debug\net7.0\ref\Tinh_Ke_Thua_Cua_Cac_Lop.dll

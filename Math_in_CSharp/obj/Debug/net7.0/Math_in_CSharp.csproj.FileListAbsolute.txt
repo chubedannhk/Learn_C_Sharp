@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\bin\Debug\net7.0\Math_in_CSharp.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\bin\Debug\net7.0\Math_in_CSharp.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\bin\Debug\net7.0\Math_in_CSharp.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\bin\Debug\net7.0\Math_in_CSharp.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\bin\Debug\net7.0\Math_in_CSharp.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\Math_in_CSharp.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\Math_in_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\Math_in_CSharp.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\Math_in_CSharp.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\Math_in_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\Math_in_CSharp.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\refint\Math_in_CSharp.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\Math_in_CSharp.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\Math_in_CSharp.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Math_in_CSharp\obj\Debug\net7.0\ref\Math_in_CSharp.dll

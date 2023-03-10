@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\bin\Debug\net7.0\Struct_KieuDuLieuLietKe.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\bin\Debug\net7.0\Struct_KieuDuLieuLietKe.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\bin\Debug\net7.0\Struct_KieuDuLieuLietKe.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\bin\Debug\net7.0\Struct_KieuDuLieuLietKe.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\bin\Debug\net7.0\Struct_KieuDuLieuLietKe.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\Struct_KieuDuLieuLietKe.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\Struct_KieuDuLieuLietKe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\Struct_KieuDuLieuLietKe.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\Struct_KieuDuLieuLietKe.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\Struct_KieuDuLieuLietKe.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\Struct_KieuDuLieuLietKe.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\refint\Struct_KieuDuLieuLietKe.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\Struct_KieuDuLieuLietKe.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\Struct_KieuDuLieuLietKe.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Struct_KieuDuLieuLietKe\obj\Debug\net7.0\ref\Struct_KieuDuLieuLietKe.dll
