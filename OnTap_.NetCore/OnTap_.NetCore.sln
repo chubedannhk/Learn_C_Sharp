@@ -5,11 +5,19 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnTap_.NetCore", "OnTap_.NetCore.csproj", "{AB122B78-D01D-4F98-BC3E-A1112C0F815B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct_KieuDuLieuLietKe", "..\Struct_KieuDuLieuLietKe\Struct_KieuDuLieuLietKe.csproj", "{7D277F8B-901B-4E24-9DDE-71FF7FB53C57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct_KieuDuLieuLietKe", "..\Struct_KieuDuLieuLietKe\Struct_KieuDuLieuLietKe.csproj", "{7D277F8B-901B-4E24-9DDE-71FF7FB53C57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math_in_CSharp", "..\Math_in_CSharp\Math_in_CSharp.csproj", "{80317C6B-9D15-47C9-A019-5A499D3AECDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math_in_CSharp", "..\Math_in_CSharp\Math_in_CSharp.csproj", "{80317C6B-9D15-47C9-A019-5A499D3AECDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tinh_Ke_Thua_Cua_Cac_Lop", "..\Tinh_Ke_Thua_Cua_Cac_Lop\Tinh_Ke_Thua_Cua_Cac_Lop.csproj", "{47CD4EF2-7833-4073-B4E3-2D54FBE15DCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinh_Ke_Thua_Cua_Cac_Lop", "..\Tinh_Ke_Thua_Cua_Cac_Lop\Tinh_Ke_Thua_Cua_Cac_Lop.csproj", "{47CD4EF2-7833-4073-B4E3-2D54FBE15DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSpace_Partial", "..\NameSpace_Partial\NameSpace_Partial.csproj", "{3E4FC8D0-113C-47F3-BB58-926394C1E206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "..\Generic\Generic.csproj", "{4ECC6DD2-B4C9-450C-8620-72325EF4DC9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousType_And_Dynamic", "..\AnonymousType_And_Dynamic\AnonymousType_And_Dynamic.csproj", "{9F72EA21-C2D9-4EB0-877C-396CB93BB7C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "..\Abstract\Abstract.csproj", "{2C37A0A5-87C0-46B8-A866-B082725DC04F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{47CD4EF2-7833-4073-B4E3-2D54FBE15DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47CD4EF2-7833-4073-B4E3-2D54FBE15DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47CD4EF2-7833-4073-B4E3-2D54FBE15DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4FC8D0-113C-47F3-BB58-926394C1E206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4FC8D0-113C-47F3-BB58-926394C1E206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4FC8D0-113C-47F3-BB58-926394C1E206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4FC8D0-113C-47F3-BB58-926394C1E206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECC6DD2-B4C9-450C-8620-72325EF4DC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECC6DD2-B4C9-450C-8620-72325EF4DC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECC6DD2-B4C9-450C-8620-72325EF4DC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECC6DD2-B4C9-450C-8620-72325EF4DC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F72EA21-C2D9-4EB0-877C-396CB93BB7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F72EA21-C2D9-4EB0-877C-396CB93BB7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F72EA21-C2D9-4EB0-877C-396CB93BB7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F72EA21-C2D9-4EB0-877C-396CB93BB7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C37A0A5-87C0-46B8-A866-B082725DC04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C37A0A5-87C0-46B8-A866-B082725DC04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C37A0A5-87C0-46B8-A866-B082725DC04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C37A0A5-87C0-46B8-A866-B082725DC04F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

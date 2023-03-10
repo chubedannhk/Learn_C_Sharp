@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\bin\Debug\net7.0\AnonymousType_And_Dynamic.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\bin\Debug\net7.0\AnonymousType_And_Dynamic.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\bin\Debug\net7.0\AnonymousType_And_Dynamic.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\bin\Debug\net7.0\AnonymousType_And_Dynamic.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\bin\Debug\net7.0\AnonymousType_And_Dynamic.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\AnonymousType_And_Dynamic.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\AnonymousType_And_Dynamic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\AnonymousType_And_Dynamic.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\AnonymousType_And_Dynamic.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\AnonymousType_And_Dynamic.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\AnonymousType_And_Dynamic.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\refint\AnonymousType_And_Dynamic.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\AnonymousType_And_Dynamic.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\AnonymousType_And_Dynamic.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\AnonymousType_And_Dynamic\obj\Debug\net7.0\ref\AnonymousType_And_Dynamic.dll
