@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\bin\Debug\net7.0\Lambda.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\bin\Debug\net7.0\Lambda.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\bin\Debug\net7.0\Lambda.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\bin\Debug\net7.0\Lambda.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\bin\Debug\net7.0\Lambda.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\Lambda.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\Lambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\Lambda.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\Lambda.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\Lambda.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\Lambda.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\refint\Lambda.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\Lambda.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\Lambda.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Lambda\obj\Debug\net7.0\ref\Lambda.dll

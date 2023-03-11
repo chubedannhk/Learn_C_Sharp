@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousType_And_Dynamic",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract", "..\Abstract\Abstract.csproj", "{2C37A0A5-87C0-46B8-A866-B082725DC04F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "..\Delegate\Delegate.csproj", "{0C89E3DF-1B32-48B9-BAF6-A7CD0351B95E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "..\Delegate\Delegate.csproj", "{0C89E3DF-1B32-48B9-BAF6-A7CD0351B95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "..\Lambda\Lambda.csproj", "{9EAA98B7-AD95-48E5-B93C-D0041B1A9617}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{0C89E3DF-1B32-48B9-BAF6-A7CD0351B95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C89E3DF-1B32-48B9-BAF6-A7CD0351B95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C89E3DF-1B32-48B9-BAF6-A7CD0351B95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EAA98B7-AD95-48E5-B93C-D0041B1A9617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAA98B7-AD95-48E5-B93C-D0041B1A9617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAA98B7-AD95-48E5-B93C-D0041B1A9617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAA98B7-AD95-48E5-B93C-D0041B1A9617}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
