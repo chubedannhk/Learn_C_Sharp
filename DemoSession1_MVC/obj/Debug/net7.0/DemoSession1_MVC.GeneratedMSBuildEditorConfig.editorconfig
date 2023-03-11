@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession1_MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession1_MVC/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession1_MVC/Views/Demo2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtbzJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

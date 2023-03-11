@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+RpPo2v6vOjFOTIVTvcGDWRKZ/ZiC2nXzJKsIB1aL49VZAF3ivSGRiSx1sBZtN+eCn9ic1vK7P+47kWLtCwH4w==",
+  "dgSpecHash": "BrxciqltiR3RQDvqQ5LAI9QO/BGhGQViGIUerJnB/Y1br6G9ukm2dwekn4ZRN7MxJtvRlUw5w0vTf0zXt6QmhQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession1_MVC\\DemoSession1_MVC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

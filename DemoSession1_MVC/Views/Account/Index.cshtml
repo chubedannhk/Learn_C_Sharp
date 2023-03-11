@@ -1,0 +1,169 @@
+﻿@*xac dinh kieu du lieu doi tuong dang lk vao form la gi*@
+@model DemoSession1_MVC.Models.Account
+
+<h2>Register - Dang Ky</h2>
+<form method="post" asp-controller="account" asp-action="save">
+    <table border="0">
+        <tr>
+            <td class="td">UserName</td>
+            <td class="td"><input type="text" asp-for="userName" class="td" /></td>
+        </tr>
+        <tr>
+            <td class="td">Password</td>
+            <td class="td"><input type="password" asp-for="password" class="td" /></td>
+        </tr>
+
+        <tr>
+            <td class="td" valign="top">Description</td>
+            <td class="td">
+                <textarea class="td" cols="20" rows="5" asp-for="description"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="td" valign="top">Details</td>
+            <td class="td">
+                <textarea id="editor" cols="20" rows="5" asp-for="details"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="td" valign="top">Gender</td>
+            <td class="td">
+                <lable class="td">Male</lable>  <input type="radio" value="male" asp-for="Gender" />
+                <lable class="td">Female</lable> <input type="radio" value="female" asp-for="Gender" />
+            </td>
+        </tr>
+
+
+        <tr>
+            <td class="td" valign="top">Certificate</td>
+            <td class="td">
+                @foreach (var cert in ViewBag.certs)
+                {
+                    <input type="radio" value="@cert.Id" asp-for="CertId" /> <lable class="td">@cert.Name</lable>
+
+                    <br />
+                }
+            </td>
+        </tr>
+
+
+        <tr>
+            <td class="td" valign="top">Status</td>
+            <td class="td">
+                <input type="checkbox" asp-for="Status" />
+            </td>
+        </tr>
+
+
+        <tr>
+            <td class="td" valign="top">Languages</td>
+            <td class="td">
+                @foreach (var lang in ViewBag.language)
+                {
+                    <input type="checkbox" value="@lang.Id" name="LanguageId" /> <lable class="td">@lang.Name</lable>
+                    <br />
+                }
+            </td>
+        </tr>
+
+        <tr>
+            <td class="td" valign="top">Role</td>
+            <td class="td">
+                <select class="td" asp-for="RoleId">
+                  
+                        @foreach (var role in ViewBag.role)
+                    {
+                        <option value="@role.Id">
+                            @role.Name
+                        </option>
+                    }
+
+                </select>
+                
+            </td>
+        </tr>
+        <tr>
+            <td class="td">&nbsp;</td>
+            <td class="td"><input type="submit" value="Save" class="td" />
+                <input type="hidden" asp-for="Id" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+<style>
+    .td {
+        font-family: 'Times New Roman', Times, serif;
+        color: dimgray;
+        font-size: 20px;
+        cursor: pointer
+    }
+</style>
+
+
+@*de ma hoa duoc mat khau thi thuc hien cac buoc sau:
+ Dependencies -> Manage nuget packages -> bcrypt.net-core -> install*@
+
+<script src="~/js/ckeditor/ckeditor.js"></script>
+<script>
+    /**
+    * Copyright (c) 2003-2023, CKSource Holding sp. z o.o. All rights reserved.
+    * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+    */
+
+    /* exported initSample */
+
+    if (CKEDITOR.env.ie && CKEDITOR.env.version < 9)
+        CKEDITOR.tools.enableHtml5Elements(document);
+
+    // The trick to keep the editor in the sample quite small
+    // unless user specified own height.
+    CKEDITOR.config.height = 150;
+    CKEDITOR.config.width = 'auto';
+
+    var initSample = (function () {
+        var wysiwygareaAvailable = isWysiwygareaAvailable(),
+            isBBCodeBuiltIn = !!CKEDITOR.plugins.get('bbcode');
+
+        return function () {
+            var editorElement = CKEDITOR.document.getById('editor');
+
+            // :(((
+            if (isBBCodeBuiltIn) {
+                editorElement.setHtml(
+                    'Hello world!\n\n' +
+                    'I\'m an instance of [url=https://ckeditor.com]CKEditor[/url].'
+                );
+            }
+
+            // Depending on the wysiwygarea plugin availability initialize classic or inline editor.
+            if (wysiwygareaAvailable) {
+                CKEDITOR.replace('editor');
+            } else {
+                editorElement.setAttribute('contenteditable', 'true');
+                CKEDITOR.inline('editor');
+
+                // TODO we can consider displaying some info box that
+                // without wysiwygarea the classic editor may not work.
+            }
+        };
+
+        function isWysiwygareaAvailable() {
+            // If in development mode, then the wysiwygarea must be available.
+            // Split REV into two strings so builder does not replace it :D.
+            if (CKEDITOR.revision == ('%RE' + 'V%')) {
+                return true;
+            }
+
+            return !!CKEDITOR.plugins.get('wysiwygarea');
+        }
+    })();
+
+
+</script>
+
+<script>
+    initSample();
+</script>
