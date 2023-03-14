@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\bin\Debug\net7.0\CS_Event.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\bin\Debug\net7.0\CS_Event.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\bin\Debug\net7.0\CS_Event.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\bin\Debug\net7.0\CS_Event.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\bin\Debug\net7.0\CS_Event.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\CS_Event.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\CS_Event.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\CS_Event.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\CS_Event.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\CS_Event.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\CS_Event.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\refint\CS_Event.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\CS_Event.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\CS_Event.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_Event\obj\Debug\net7.0\ref\CS_Event.dll
