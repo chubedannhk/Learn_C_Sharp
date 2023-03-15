@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Event", "..\CS_Event\CS_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethod", "..\ExtensionMethod\ExtensionMethod.csproj", "{2FFFE4A7-A5FC-47F2-91FE-F5FFE5333F2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_017", "..\CS_017\CS_017.csproj", "{F7A64871-B2EF-439E-B849-73FBCD169FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_017", "..\CS_017\CS_017.csproj", "{F7A64871-B2EF-439E-B849-73FBCD169FEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "..\Exception\Exception.csproj", "{06B6D7FF-C952-4562-9843-AA2F4F4C1628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exception", "..\Exception\Exception.csproj", "{06B6D7FF-C952-4562-9843-AA2F4F4C1628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "..\List\List.csproj", "{0C231C3A-5FD0-4884-8732-F3525B2EF6FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{06B6D7FF-C952-4562-9843-AA2F4F4C1628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06B6D7FF-C952-4562-9843-AA2F4F4C1628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06B6D7FF-C952-4562-9843-AA2F4F4C1628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C231C3A-5FD0-4884-8732-F3525B2EF6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C231C3A-5FD0-4884-8732-F3525B2EF6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C231C3A-5FD0-4884-8732-F3525B2EF6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C231C3A-5FD0-4884-8732-F3525B2EF6FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
