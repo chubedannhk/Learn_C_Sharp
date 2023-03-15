@@ -8,7 +8,7 @@ public class AccountController : Controller
 {
     [Route("")]
     [Route("index")]
-    [Route("~/")]
+  //  [Route("~/")]
     public IActionResult Index()
     {
         var account = new Account()
@@ -20,7 +20,8 @@ public class AccountController : Controller
             CertId = "1",
             Status = false,
             RoleId = 2,
-            Id = 123
+            Id = 123,
+            Dob = DateTime.Now
         };
         // chuyen du lieu tu certmodel len
         var certModel = new CertModel();
@@ -76,6 +77,14 @@ public class AccountController : Controller
 
         // lay gia tri id nguoi truy cap
         Debug.WriteLine($"Id: {account.Id}");
+
+        // address info
+        Debug.WriteLine("Address Info");
+        Debug.WriteLine($"Street: {account.Address.Street}");
+        Debug.WriteLine($"Ward: {account.Address.Ward}");
+        Debug.WriteLine($"District: {account.Address.District}");
+        // lay ra ngay thang nam
+        Debug.WriteLine($"Dob: {account.Dob.ToString("yyyy-MM-dd")}");
         // goi ve lai trang index/account
         return RedirectToAction("index", "account");
     }

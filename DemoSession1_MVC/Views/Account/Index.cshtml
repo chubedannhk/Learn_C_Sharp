@@ -72,8 +72,8 @@
             <td class="td" valign="top">Role</td>
             <td class="td">
                 <select class="td" asp-for="RoleId">
-                  
-                        @foreach (var role in ViewBag.role)
+
+                    @foreach (var role in ViewBag.role)
                     {
                         <option value="@role.Id">
                             @role.Name
@@ -81,12 +81,32 @@
                     }
 
                 </select>
+
+            </td>
+        </tr>
+        @* address*@
+        <tr>
+            <td class="td" valign="top">Address</td>
+            <td class="td">
+                Street    <input type="text" asp-for="Address.Street" /><br />
+                Ward      <input type="text" asp-for="Address.Ward" /><br />
+                District  <input type="text" asp-for="Address.District" /><br />
+
+            </td>
+        </tr>
+        @* Date of birth*@
+        <tr>
+            <td class="td" valign="top">Date of birth</td>
+            <td class="td">
+                    <input type="text" id="dob" asp-for="Dob" asp-format="{0:dd/MM/yyyy}"/><br />
                 
+
             </td>
         </tr>
         <tr>
             <td class="td">&nbsp;</td>
-            <td class="td"><input type="submit" value="Save" class="td" />
+            <td class="td">
+                <input type="submit" value="Save" class="td" />
                 <input type="hidden" asp-for="Id" />
             </td>
         </tr>
@@ -105,7 +125,18 @@
 
 @*de ma hoa duoc mat khau thi thuc hien cac buoc sau:
  Dependencies -> Manage nuget packages -> bcrypt.net-core -> install*@
+ @* deatepiker jquery ui*@
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#dob").datepicker();
+    });
+</script>
 
+@*nay la html go chu*@
 <script src="~/js/ckeditor/ckeditor.js"></script>
 <script>
     /**

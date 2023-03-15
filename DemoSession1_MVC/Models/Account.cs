@@ -15,4 +15,10 @@ public class Account
     public int RoleId { get; set;}
 
     public int Id { get; set; }
+
+
+    // khai bao doi tuong address
+    public Address Address { get; set; }
+    // dateofbirth
+    public DateTime Dob { get; set; }
 }

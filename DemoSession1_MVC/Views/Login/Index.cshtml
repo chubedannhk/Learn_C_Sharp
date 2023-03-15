@@ -1,0 +1,241 @@
+﻿@model DemoSession1_MVC.Models.Login
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nguyenhoangkhai</title>
+</head>
+<body>
+    <p class="title_h1">Retreat Registration</p>
+    <p class="title_noteday">Nov 24-25 (Sat, Sun, Mon)</p>
+    <hr width="500px" align="left" />
+    <form method="post" asp-controller="login" asp-action="save">
+        <div class="btn_title">
+            <table border="0">
+                <label class="btn_lable">Name</label>
+                <tr>
+                    <td>
+                        <input style="width: 100px" type="text" class="btn_input" asp-for="firstName" />
+                    </td>
+                    <td>
+                        <input style="width: 150px" type="text" class="btn_input" asp-for="lastName" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="btn_lable" style="color: gray;">First</td>
+                    <td class="btn_lable" style="color: gray;">Last</td>
+                </tr>
+            </table>
+        </div>
+        <div class="btn_title">
+            <table border="0">
+                <label class="btn_lable">Address<i style="color: red">*</i></label>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" class="btn_input" style="width: 500px" asp-for="infoAddress.Street" />
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="btn_lable" style="color: gray;">Street Address</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="text" class="btn_input" style="width: 500px" asp-for="infoAddress.Street2" />
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="btn_lable" style="color: gray;">Address Line 2</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input class="btn_input" type="text" style="width: 250px" asp-for="infoAddress.City" />
+                    </td>
+                    <td>
+                        <input class="btn_input" type="text" style="width: 240px" asp-for="infoAddress.State" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="btn_lable" style="color: gray;">City</td>
+                    <td class="btn_lable" style="color: gray;">State/Province/Region</td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <input class="btn_input" type="text" style="width: 250px" asp-for="infoAddress.Postal" />
+                    </td>
+                    <td class="td">
+                        <select class="btn_input" style="width: 250px;height: 25px;" asp-for="infoAddress.Country">
+
+                            @foreach (var country in ViewBag.country)
+                            {
+                                <option>
+                                    @country.Country
+                                </option>
+                            }
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="btn_lable" style="color: gray;">Postal/ Zip Code</td>
+                    <td class="btn_lable" style="color: gray;">Country</td>
+                </tr>
+            </table>
+        </div>
+        <div class="btn_title">
+            <label class="btn_lable">Phone</label>
+            <label class="btn_lable" style="margin-left: 215px">Email<i style="color: red">*</i></label><br />
+
+            <input type="text"
+                   class="btn_input"
+                   style="width: 50px; margin-left: 0;" asp-for="Phone.num1" maxlength="3"  />
+            <input type="text"
+                   class="btn_input"
+                   style="width: 50px; margin-left: 10px;" asp-for="Phone.num2" maxlength="3" />
+            <input type="text"
+                   class="btn_input"
+                   style="width: 70px; margin-left: 10px;" asp-for="Phone.num3" maxlength="4" />
+
+            <input type="text"
+                   class="btn_input"
+                   style="width: 240px; margin-left: 40px" asp-for="email" /><br />
+
+            <label class="btn_lable" style="margin-left: 15px">###</label>
+            <label class="btn_lable" style="margin-left: 40px">###</label>
+            <label class="btn_lable" style="margin-left: 50px">###</label>
+        </div>
+        <div >
+
+            <label class="btn_lable">Arrival Date</label>
+            <label class="btn_lable" style="width: 50px;margin-left: 170px;">Departure Date</label>
+            <br>
+
+            <input type="text" id="startdate" asp-format="{0:dd/MM/yyyy}" class="btn_input" style="width: 200px;margin-left: 0px;" asp-for="startDate" />
+
+            <input type="text" id="enddate" asp-format="{0:dd/MM/yyyy}" class="btn_input" style="width: 200px;margin-left: 70px;" asp-for="endDate" />
+         
+            <br>
+           
+        </div>
+
+        <div>
+
+            <label class="btn_lable">Accommodation Status</label>
+            <br>
+            <select class="btn_input" style="width: 200px;height: 25px;" asp-for="Status">
+                @foreach (var status in ViewBag.status)
+                {
+                    <option value="@status.Id">
+                @status.Name
+                </option>
+                }
+              
+            </select>
+        </div>
+        <div>
+
+            <label class="btn_lable">Special Needs</label> <br>
+            <textarea class="btn_input" cols="61" rows="5" asp-for="speciallNeeds"></textarea>
+        </div>
+        <br />
+        <div>
+            <button value="Save" class="btn_button">Submit</button>
+        </div>
+
+      
+    </form>
+
+
+</body>
+</html>
+
+
+
+
+<style>
+    .title_h1 {
+        color: grey;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .title_noteday {
+        color: gray;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        z-index: 1;
+    }
+
+    .btn_lable {
+        color: black;
+        font-size: 18px;
+        font-style: oblique;
+    }
+
+    .btn_input {
+        color: rgb(0, 0, 0);
+        box-shadow: 2px 3px #ffffff;
+        font-size: 16px;
+        font-family: "Times New Roman", Times, serif;
+        /* width: 100px; */
+    }
+
+    .btn_button {
+        color: gray;
+        background: lightgrey;
+        font-size: 25px;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+        .btn_button:hover {
+            background-color: blue;
+            color: white;
+        }
+</style>
+
+@*<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#dob").datepicker({
+            dateFormat: 'dd/mm/yy',
+            changeMonth: true,
+            changeYear: true,
+            yearRange: "-10:+10"
+        });
+    });
+</script>*@
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $("#startdate").datepicker({
+            
+            changeMonth: true,
+            changeYear: true,
+            yearRange: "-10:+10"
+        }).val()
+        $("#enddate").datepicker({
+           
+            changeMonth: true,
+            changeYear: true,
+            yearRange: "-10:+10"
+        }).val()
+    });
+
+</script>  
