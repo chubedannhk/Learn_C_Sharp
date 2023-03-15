@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\bin\Debug\net7.0\CS_017.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\bin\Debug\net7.0\CS_017.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\bin\Debug\net7.0\CS_017.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\bin\Debug\net7.0\CS_017.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\bin\Debug\net7.0\CS_017.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\CS_017.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\CS_017.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\CS_017.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\CS_017.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\CS_017.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\CS_017.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\refint\CS_017.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\CS_017.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\CS_017.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\CS_017\obj\Debug\net7.0\ref\CS_017.dll

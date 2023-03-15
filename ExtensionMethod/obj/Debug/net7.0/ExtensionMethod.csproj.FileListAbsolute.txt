@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\bin\Debug\net7.0\ExtensionMethod.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\bin\Debug\net7.0\ExtensionMethod.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\bin\Debug\net7.0\ExtensionMethod.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\bin\Debug\net7.0\ExtensionMethod.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\bin\Debug\net7.0\ExtensionMethod.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\ExtensionMethod.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\ExtensionMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\ExtensionMethod.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\ExtensionMethod.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\ExtensionMethod.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\ExtensionMethod.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\refint\ExtensionMethod.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\ExtensionMethod.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\ExtensionMethod.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\ExtensionMethod\obj\Debug\net7.0\ref\ExtensionMethod.dll
