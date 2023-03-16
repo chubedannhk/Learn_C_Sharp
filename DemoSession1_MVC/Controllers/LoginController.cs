@@ -8,7 +8,7 @@ public class LoginController : Controller
 {
     [Route("")]
     [Route("index")]
-    [Route("~/")]
+   // [Route("~/")]
     public IActionResult Index()
     {
         var login = new Login()

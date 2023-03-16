@@ -16,7 +16,7 @@ public class Demo3Controller : Controller
     //=============================================================
     [Route("index")]
     [Route("")]
-   // [Route("~/")]
+ //  [Route("~/")]
     public IActionResult Index()
     {
         // tao de phat sinh chuoi duy nhat
@@ -32,6 +32,16 @@ public class Demo3Controller : Controller
         Debug.WriteLine("keyword: " + keyword);
         return View("index");
     }
+    // search by keyword 2
+    [HttpPost]
+    [Route("searchByKeyword2")]
+    public IActionResult SearchByKeyword2()
+    {
+        var keyword = HttpContext.Request.Form["keyword"].ToString();
+        Debug.WriteLine("keyword 2: " + keyword);
+        return View("index");
+    }
+    //==========================================
     //
     [Route("searchByPrices")]
     public IActionResult SearchByPrices(double min, double max)

@@ -56,6 +56,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xuZ3V5ZW5ob2FuZ2toYWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession1_MVC/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession1_MVC/Views/Employee/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession1_MVC/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession1_MVC/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession1_MVC/Views/Question/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession1_MVC/Views/Student/Index.cshtml]

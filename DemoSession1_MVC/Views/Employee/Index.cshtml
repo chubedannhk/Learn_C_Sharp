@@ -1,0 +1,75 @@
+﻿@model DemoSession1_MVC.Models.Employee
+<h3>REGISTER EMPLOYEE</h3>
+
+<form method="post" asp-controller="employee" asp-action="save">
+    <table>
+        <tr>
+            <td>
+                UserName
+            </td>
+            <td>
+                <input type="text" asp-for="Username"/>
+            </td>
+            <td>
+                <span asp-validation-for="Username"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Password
+            </td>
+            <td>
+                <input type="password" asp-for="Password" />
+            </td>
+            <td>
+                <span asp-validation-for="Password"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email
+            </td>
+            <td>
+                <input type="text" asp-for="Email" />
+            </td>
+            <td>
+                <span asp-validation-for="Email"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Website
+            </td>
+            <td>
+                <input type="text" asp-for="Website" />
+            </td>
+            <td>
+                <span asp-validation-for="Website"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Age
+            </td>
+            <td>
+                <input type="text" asp-for="Age" />
+            </td>
+            <td>
+                <span asp-validation-for="Age"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                FullName
+            </td>
+            <td>
+                <input type="text" asp-for="FullName" />
+            </td>
+            <td>
+                <span asp-validation-for="FullName"></span>
+            </td>
+        </tr>
+    </table>
+    <button value="Save">Save</button>
+
+</form>

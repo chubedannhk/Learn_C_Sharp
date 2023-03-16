@@ -1,0 +1,28 @@
+﻿@model DemoSession1_MVC.Models.Question
+<h2>Question And Answer </h2>
+<form method="post" asp-controller="question" asp-action="save">
+    <ol>
+        @foreach (var ques in ViewBag.question)
+        {
+
+        @*    <li>@ques.Id</li>*@
+            <li>@ques.Content
+                <ol type="I">
+                    @foreach(var answer in ques.Answers)
+                    {
+                      @*  <li></li>*@
+                        <input type="checkbox" />
+
+                        @answer.Content
+                        <br />
+                    }
+                </ol>
+            </li>
+            <br />
+        }
+    </ol>
+ 
+    
+    
+    <button value="Save">Save</button>
+</form>
