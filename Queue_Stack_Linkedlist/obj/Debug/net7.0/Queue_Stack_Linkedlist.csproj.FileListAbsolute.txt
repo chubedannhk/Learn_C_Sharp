@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\bin\Debug\net7.0\Queue_Stack_Linkedlist.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\bin\Debug\net7.0\Queue_Stack_Linkedlist.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\bin\Debug\net7.0\Queue_Stack_Linkedlist.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\bin\Debug\net7.0\Queue_Stack_Linkedlist.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\bin\Debug\net7.0\Queue_Stack_Linkedlist.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\Queue_Stack_Linkedlist.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\Queue_Stack_Linkedlist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\Queue_Stack_Linkedlist.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\Queue_Stack_Linkedlist.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\Queue_Stack_Linkedlist.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\Queue_Stack_Linkedlist.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\refint\Queue_Stack_Linkedlist.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\Queue_Stack_Linkedlist.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\Queue_Stack_Linkedlist.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Queue_Stack_Linkedlist\obj\Debug\net7.0\ref\Queue_Stack_Linkedlist.dll
