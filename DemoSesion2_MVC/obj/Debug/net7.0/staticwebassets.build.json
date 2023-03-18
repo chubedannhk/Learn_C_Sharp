@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "oitPeOX4JOC0f9ZNhvIVcg8P6DcmT7UfCmVe8asE6tI=",
+  "Source": "DemoSesion2_MVC",
+  "BasePath": "_content/DemoSesion2_MVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoSesion2_MVC\\wwwroot",
+      "Source": "DemoSesion2_MVC",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSesion2_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSesion2_MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSesion2_MVC\\wwwroot\\images\\angel.png",
+      "SourceId": "DemoSesion2_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSesion2_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSesion2_MVC",
+      "RelativePath": "images/angel.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\angel.png"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSesion2_MVC\\wwwroot\\images\\girlviet.png",
+      "SourceId": "DemoSesion2_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSesion2_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSesion2_MVC",
+      "RelativePath": "images/girlviet.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\girlviet.png"
+    }
+  ]
+}

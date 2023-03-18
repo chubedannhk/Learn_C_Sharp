@@ -1,0 +1,25 @@
+﻿<h2>Product List</h2>
+
+<table border="1" width="500px">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Phot</th>
+        <th>Price</th>
+        <th>Created</th>
+    </tr>
+    @foreach (var pro in ViewBag.product)
+    {
+        <tr>
+            <td>@pro.Id</td>
+            <td>@pro.Name</td>
+            <td>
+               <a> <img src="~/images/@pro.Photo" width="50" height="65" /></a>
+            </td>
+            <td>@pro.Price</td>
+           
+            <td>@pro.Created.ToString("dd/MM/yyyy hh:mm:ss")</td>
+           
+        </tr>
+    }
+</table>

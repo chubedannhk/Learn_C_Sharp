@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\bin\Debug\net7.0\Asynchronous.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\bin\Debug\net7.0\Asynchronous.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\bin\Debug\net7.0\Asynchronous.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\bin\Debug\net7.0\Asynchronous.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\bin\Debug\net7.0\Asynchronous.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\Asynchronous.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\Asynchronous.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\Asynchronous.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\Asynchronous.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\Asynchronous.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\Asynchronous.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\refint\Asynchronous.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\Asynchronous.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\Asynchronous.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\Asynchronous\obj\Debug\net7.0\ref\Asynchronous.dll

@@ -62,5 +62,12 @@ public class QuestionModel
         };
     }
     public List<Question> findAll() { return question; }
+
+    public bool isCorrect(int questionId, int answerId)
+    {
+        var ques = question.SingleOrDefault(q => q.Id == questionId);
+        var answerIdCorrect = ques.Answers.SingleOrDefault(q => q.IsCorrect).Id;
+        return answerIdCorrect == answerId;
+    }
   
 }

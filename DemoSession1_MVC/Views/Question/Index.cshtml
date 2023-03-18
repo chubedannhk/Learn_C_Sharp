@@ -5,13 +5,13 @@
         @foreach (var ques in ViewBag.question)
         {
 
-        @*    <li>@ques.Id</li>*@
-            <li>@ques.Content
-                <ol type="I">
-                    @foreach(var answer in ques.Answers)
+          
+            <li>
+                @ques.Content
+                <ol>
+                    @foreach (var answer in ques.Answers)
                     {
-                      @*  <li></li>*@
-                        <input type="checkbox" />
+                        <input type="radio" name="question_@ques.Id" value="@answer.Id" />
 
                         @answer.Content
                         <br />
@@ -21,8 +21,8 @@
             <br />
         }
     </ol>
- 
-    
-    
+
+
+
     <button value="Save">Save</button>
 </form>
