@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue_Stack_Linkedlist", ".
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileExample", "..\FileExample\FileExample.csproj", "{AE77EF73-D344-4B8C-B9F8-03D663F80BBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous", "..\Asynchronous\Asynchronous.csproj", "{685DC3A2-37E9-4C7B-88B8-933C082BC24B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous", "..\Asynchronous\Asynchronous.csproj", "{685DC3A2-37E9-4C7B-88B8-933C082BC24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "..\LINQ\LINQ.csproj", "{78381127-19EA-4E8B-9706-C22E16F1CE5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{685DC3A2-37E9-4C7B-88B8-933C082BC24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{685DC3A2-37E9-4C7B-88B8-933C082BC24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{685DC3A2-37E9-4C7B-88B8-933C082BC24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78381127-19EA-4E8B-9706-C22E16F1CE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78381127-19EA-4E8B-9706-C22E16F1CE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78381127-19EA-4E8B-9706-C22E16F1CE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78381127-19EA-4E8B-9706-C22E16F1CE5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
