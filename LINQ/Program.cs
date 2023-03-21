@@ -184,7 +184,99 @@ class Program
         //Console.WriteLine(p);
 
         // Count
-        var p = products.Count(p=>p.Price>=300);
-        Console.WriteLine(p);
+        //var p = products.Count(p=>p.Price>=300);
+        //Console.WriteLine(p);
+
+
+        /////////////////////////////////////////////////
+        // bai tap vi du: In ra ten san pham, ten thuong hieu, co gia(300-400) , gia giam dan
+
+        //var result = products.Where(p => p.Price >= 300 && p.Price <= 400).OrderByDescending(p => p.Price).Join(brands, p => p.Brand, b => b.Id, (sp, th) =>
+        // {
+        //     return new
+        //     {
+        //         tenSp = sp.Name,
+        //         tenThuongHieu = th.Name,
+        //         Gia = sp.Price
+        //     };
+        // });
+        // foreach(var item in result)
+        // {
+        //     Console.WriteLine(item);
+        // }
+
+        //========
+        /* cu phap truy van linq
+         * 1> xac dinh nguon: from tenphantu in InEnumerables
+          .....where, orderby,...
+         * 2> Lay du lieu: select, group by,...
+        */
+        //var query = from pro in products select pro;
+        //query.ToList().ForEach(pro => Console.WriteLine(pro));
+        //foreach (var item in query)
+        //{
+        //    Console.WriteLine(item);
+        //}
+
+        // select sp co gia ... va mau ..
+        //var query = from pro in products
+        //            from color in pro.Colors
+        //            where pro.Price <= 500 && color == "Xanh"
+        //            orderby pro.Price descending
+        //            select new
+        //            {
+        //                tenSp = pro.Name,
+        //                gia = pro.Price,
+        //                mau =pro.Colors
+        //            };
+        //foreach (var item in query)
+        //{
+        //    Console.WriteLine($"{item.tenSp,10}{item.gia,10}{string.Join(',', item.mau),25}");
+
+        //}
+
+        // nhom sp theo gia
+        //var query = from pro in products
+        //            group pro by pro.Price into gr
+        //            orderby gr.Key select gr;
+
+        //query.ToList().ForEach(group =>
+        //{
+        //    Console.WriteLine(group.Key);
+        //    group.ToList().ForEach(p => Console.WriteLine(p));
+        //});
+
+        // truy van va tra ve cac doi tuong
+        //var query = from pro in products
+        //            group pro by pro.Price into gr
+        //            orderby gr.Key
+        //            let sl = gr.Count()
+        //            select new
+        //            {
+        //                gia= gr.Key,
+        //                sp = gr.ToList(),
+        //                slg = sl
+        //            };
+
+        //query.ToList().ForEach(i=>{
+        //    Console.WriteLine(i.gia);
+        //    Console.WriteLine(i.slg);
+        //    i.sp.ForEach(s => Console.WriteLine(s));
+        //});
+
+        // join == inner join cua sql 
+        var query = from pro in products
+                    join brand in brands on pro.Brand equals brand.Id into t
+                    from b in t.DefaultIfEmpty()
+                    select new
+                    {
+                        ten = pro.Name,
+                        gia = pro.Price,
+                        thuongHieu = (b != null) ? b.Name : "No Brand"
+                    };
+        query.ToList().ForEach(i =>
+        {
+            Console.WriteLine($"{i.ten,10}{i.gia,10}{i.thuongHieu,15}");
+        });
     }
 }
