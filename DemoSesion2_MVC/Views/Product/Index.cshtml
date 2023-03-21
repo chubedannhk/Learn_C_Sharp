@@ -1,5 +1,43 @@
 ﻿<h2>Product List</h2>
 
+<fieldset>
+    <legend> Search By KeyWord </legend>
+    <form method="get" asp-controller="product" asp-action="searchByKeyword">
+        Keyword <input type="text" name="keyword" value="@ViewBag.keyword" />
+        </br>
+        <input type="submit" value="Search" />
+
+    </form>
+</fieldset>
+<br />
+
+<fieldset>
+    <legend> Search By Prices </legend>
+    <form method="get" asp-controller="product" asp-action="searchByPrices">
+        MIN <input type="text" name="min" value="@ViewBag.min" />
+        </br>
+        MAX <input type="text" name="max" value="@ViewBag.max" />
+        </br>
+        <input type="submit" value="Search" />
+
+    </form>
+</fieldset>
+<br/>
+
+<fieldset>
+    <legend> Search By Date Range </legend>
+    <form method="get" asp-controller="product" asp-action="searchByDateRange">
+
+        <label for="from">From</label>
+        <input type="text" id="from" name="from" value="@ViewBag.from">
+        <label for="to">to</label>
+        <input type="text" id="to" name="to" value="@ViewBag.to">
+        </br>
+        <input type="submit" value="Search" />
+
+    </form>
+</fieldset>
+<br />
 <table border="1" width="500px">
     <tr>
         <th>Id</th>
@@ -23,3 +61,41 @@
         </tr>
     }
 </table>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+    $( function() {
+      var dateFormat = "mm/dd/yy",
+        from = $( "#from" )
+          .datepicker({
+            defaultDate: "+1w",
+            changeMonth: true,
+            numberOfMonths: 1
+          })
+          .on( "change", function() {
+            to.datepicker( "option", "minDate", getDate( this ) );
+          }),
+        to = $( "#to" ).datepicker({
+          defaultDate: "+1w",
+          changeMonth: true,
+          numberOfMonths: 1
+        })
+        .on( "change", function() {
+          from.datepicker( "option", "maxDate", getDate( this ) );
+        });
+
+      function getDate( element ) {
+        var date;
+        try {
+          date = $.datepicker.parseDate( dateFormat, element.value );
+        } catch( error ) {
+          date = null;
+        }
+
+        return date;
+      }
+    } );
+</script>

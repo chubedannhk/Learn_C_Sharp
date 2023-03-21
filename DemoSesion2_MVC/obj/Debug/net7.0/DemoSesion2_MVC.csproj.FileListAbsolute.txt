@@ -27,3 +27,6 @@ C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSesion2_MVC\obj\Debug\net7.0\Demo
 C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSesion2_MVC\obj\Debug\net7.0\DemoSesion2_MVC.genruntimeconfig.cache
 C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSesion2_MVC\obj\Debug\net7.0\ref\DemoSesion2_MVC.dll
 C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSesion2_MVC\bin\Debug\net7.0\DemoSesion2_MVC.staticwebassets.runtime.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSesion2_MVC\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSesion2_MVC\obj\Debug\net7.0\DemoSesion2_MVC.csproj.CopyComplete
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSesion2_MVC\bin\Debug\net7.0\BCrypt.Net-Core.dll
