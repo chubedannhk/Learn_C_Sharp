@@ -1,0 +1,1 @@
+﻿Console.WriteLine("hello nguyen hoang khai");
