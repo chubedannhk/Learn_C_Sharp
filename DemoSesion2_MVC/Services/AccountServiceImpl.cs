@@ -12,19 +12,33 @@ public class AccountServiceImpl : AccountService
           new Account()
           {
               userName = "admin",
-              password = "$2b$10$kCtOepPJ7ednvTCS9mVEK.dS/wAJ4f965ruggSmXpCW38zlYpwSsi",
+              Password = "$2b$10$kCtOepPJ7ednvTCS9mVEK.dS/wAJ4f965ruggSmXpCW38zlYpwSsi",
               fullName = "admin master",
           },
           new Account()
           {
               userName = "admin2",
-              password = "$2b$10$ti1H7nd1lUZdtZjwG6v7WerIs.KgpeBb0C.nvysuW.XAVQTySkWFC",
+              Password = "$2b$10$ti1H7nd1lUZdtZjwG6v7WerIs.KgpeBb0C.nvysuW.XAVQTySkWFC",
               fullName = "admin master2"
           }
         };
     }
-    public bool login(string userName, string password)
+
+
+    public bool login(string username, string password)
     {
-        throw new NotImplementedException();
+        var account = accounts.SingleOrDefault(a => a.userName == username);
+        if(account != null)
+        {
+            return BCrypt.Net.BCrypt.Verify(password, account.Password);
+        }
+        return false;
+    }
+
+
+
+    public Account find(string username)
+    {
+        return accounts.SingleOrDefault(a => a.userName == username);
     }
 }

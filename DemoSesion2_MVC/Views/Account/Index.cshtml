@@ -3,9 +3,11 @@
 <form method="post" asp-controller="account" asp-action="login">
     UserName <input type="text" name="userName"  />
     </br>
-    PassWord <input type="text" name="password" />
+    PassWord <input type="password" name="password" />
     </br>
 
     <input type="submit" value="Search" />
+
+    <lable>@TempData["msg"]</lable>
 
 </form>

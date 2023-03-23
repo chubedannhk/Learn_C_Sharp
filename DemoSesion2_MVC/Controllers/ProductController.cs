@@ -13,7 +13,7 @@ public class ProductController : Controller
         productService = _productService;
     }  
     [Route("")]
-   // [Route("~/")]
+    [Route("~/")]
     [Route("index")]
     public IActionResult Index()
     {

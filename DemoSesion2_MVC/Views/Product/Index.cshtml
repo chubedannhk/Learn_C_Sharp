@@ -45,6 +45,7 @@
         <th>Phot</th>
         <th>Price</th>
         <th>Created</th>
+        <th>Action</th>
     </tr>
     @foreach (var pro in ViewBag.product)
     {
@@ -57,7 +58,9 @@
             <td>@pro.Price</td>
            
             <td>@pro.Created.ToString("dd/MM/yyyy hh:mm:ss")</td>
-           
+           <td>
+               <a asp-controller="cart" asp-action="buy" asp-route-id="@pro.Id">Buy Now</a>
+           </td>
         </tr>
     }
 </table>
