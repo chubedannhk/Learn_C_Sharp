@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "f48OUlURQydf7UvVbcUsFOHmiJMeiygPfgaOdKxFRuQ=",
+  "Source": "DemoSession3_MVC",
+  "BasePath": "_content/DemoSession3_MVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoSession3_MVC\\wwwroot",
+      "Source": "DemoSession3_MVC",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession3_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession3_MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession3_MVC\\wwwroot\\css\\Style.css",
+      "SourceId": "DemoSession3_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession3_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession3_MVC",
+      "RelativePath": "css/Style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style.css"
+    }
+  ]
+}

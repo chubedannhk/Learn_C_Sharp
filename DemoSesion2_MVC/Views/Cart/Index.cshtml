@@ -1,32 +1,53 @@
 ﻿<a asp-controller="product" asp-action="index">Back</a>
 
 <h2>Cart</h2>
-
-<table border="1" width="600px">
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Photo</th>
-        <th>Price</th>
-        <th>Quantity</th>
-        <th>Sub Total</th>
-
-    </tr>
-    @foreach (var item in ViewBag.cart)
-    {
+<form  method="post" asp-controller="cart" asp-action="update">
+    <table border="1" width="600px">
         <tr>
-            <td>@item.Product.Id</td>
-            <td>@item.Product.Name</td>
-            <td>
-                <a asp-controller="product" asp-action="details" asp-route-id="@item.Product.Id"> <img src="~/images/@item.Product.Photo" width="50" height="65" /></a>
-            </td>
-            <td>@item.Product.Price</td>
-            <td>@item.Quantity</td>
-            <td>
-                @(item.Product.Price * item.Quantity)
-            </td>
-
+            <th>Id</th>
+            <th>Name</th>
+            <th>Photo</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Sub Total</th>
+            <th>Action</th>
 
         </tr>
-    }
-</table>
+        @foreach (var item in ViewBag.cart)
+        {
+            <tr>
+                <td>@item.Product.Id</td>
+                <td>@item.Product.Name</td>
+                <td>
+                    <a asp-controller="product" asp-action="details" asp-route-id="@item.Product.Id"> <img src="~/images/@item.Product.Photo" width="50" height="65" /></a>
+                </td>
+                <td>@item.Product.Price</td>
+
+                @*   thay doi thanh combobox*@
+                <td>
+                    <input type="number" min="1" value="@item.Quantity" name="quantities"style="width:50px">
+
+                </td>
+                <td>
+                    @(item.Product.Price * item.Quantity)
+                </td>
+
+                <td align="center"><a asp-controller="cart" asp-action="remove" asp-route-id="@item.Product.Id">X</a></td>
+            </tr>
+        }
+        <tr>
+            <td align="center" colspan="5">
+                Total money
+            </td>
+            <td align="center" colspan="2">
+                @ViewBag.total
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="7">
+                <button value="Update">Update</button>
+            </td>
+        </tr>
+      
+    </table>
+</form>
