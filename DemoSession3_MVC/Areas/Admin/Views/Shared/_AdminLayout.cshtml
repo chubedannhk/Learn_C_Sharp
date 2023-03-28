@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <table border="1" width="800px">
+        <tr>
+            <td width="300px" valign="top">
+                <a asp-area="admin" asp-controller="invoice" asp-action="index">List</a>
+                <br />
+                <a asp-area="admin" asp-controller="invoice" asp-action="add">Add</a>
+            </td>
+            <td width="500px" valign="top"> @RenderBody()</td>
+        </tr>
+    </table>
+ 
+</body>
+</html>
