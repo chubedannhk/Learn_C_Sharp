@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\anh1.jpg",
+      "PackagePath": "staticwebassets\\images\\anh1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\anh2.jpg",
+      "PackagePath": "staticwebassets\\images\\anh2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\anh3.jpg",
+      "PackagePath": "staticwebassets\\images\\anh3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DemoSession4_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DemoSession4_MVC.props",
+      "PackagePath": "build\\DemoSession4_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DemoSession4_MVC.props",
+      "PackagePath": "buildMultiTargeting\\DemoSession4_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DemoSession4_MVC.props",
+      "PackagePath": "buildTransitive\\DemoSession4_MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

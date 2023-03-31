@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\bin\Debug\net7.0\SqlConnect.exe
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\bin\Debug\net7.0\SqlConnect.deps.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\bin\Debug\net7.0\SqlConnect.runtimeconfig.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\bin\Debug\net7.0\SqlConnect.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\bin\Debug\net7.0\SqlConnect.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\SqlConnect.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\SqlConnect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\SqlConnect.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\SqlConnect.AssemblyInfo.cs
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\SqlConnect.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\SqlConnect.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\refint\SqlConnect.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\SqlConnect.pdb
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\SqlConnect.genruntimeconfig.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\SqlConnect\obj\Debug\net7.0\ref\SqlConnect.dll

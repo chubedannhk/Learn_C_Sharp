@@ -1,0 +1,36 @@
+﻿<h3> List Product</h3>
+<a asp-controller="home" asp-action="index">Back</a>
+<table border="1" width="1000px">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Photo</th>
+        <th>Created</th>
+        <th>CategoryId</th>
+        <th>Featured</th>
+        <th>Detail</th>
+    </tr>
+    @foreach (var pro in ViewBag.product)
+    {
+        <tr>
+            <td>@pro.Id</td>
+            <td>@pro.Name</td>
+            <td>@pro.Price</td>
+            <td>@pro.Quantity</td>
+            <td>@pro.Description</td>
+            <td>@pro.Status</td>
+            <td>
+                <a> <img src="~/images/@pro.Photo" width="100" height="100" /></a>
+            </td>
+            <td>@pro.Created.ToString("dd/MM/yyyy")</td>
+
+            <td>@pro.CategoryId</td>
+            <td>@pro.Featured</td>
+            <td><a asp-controller="product" asp-action="detail" asp-route-id="@pro.Id">More</a></td>
+        </tr>
+    }
+</table>

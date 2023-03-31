@@ -1,0 +1,23 @@
+﻿<h2>Account Detail</h2>
+
+<a asp-controller="account" asp-action="index">back</a>
+
+<table border="1" width="600px">
+    <tr>
+        <th>Id</th>
+        <th>Username</th>
+        <th>FullName</th>
+        <th>Email</th>
+        <th>Status</th>
+    </tr>
+
+    <tr>
+        <td>@ViewBag.account.Id</td>
+        <td>@ViewBag.account.Username</td>
+        <td>@ViewBag.account.FullName</td>
+        <td>@ViewBag.account.Email</td>
+        <td>@ViewBag.account.Status</td>
+
+    </tr>
+
+</table>

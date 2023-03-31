@@ -1,0 +1,37 @@
+﻿<h3>Detail Product</h3>
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Photo</th>
+        <th>Created</th>
+        <th>CategoryId</th>
+        <th>Featured</th>
+
+    </tr>
+
+    <tr>
+
+        <td>@ViewBag.detail.Id</td>
+        <td>@ViewBag.detail.Name</td>
+        <td>@ViewBag.detail.Price</td>
+        <td>@ViewBag.detail.Quantity</td>
+        <td>@ViewBag.detail.Description</td>
+        <td>@ViewBag.detail.Status</td>
+        <td>
+            <a> <img src="~/images/@ViewBag.detail.Photo" width="100" height="100" /></a>
+        </td>
+        <td>@ViewBag.detail.Created.ToString("dd/MM/yyyy")</td>
+
+        <td>@ViewBag.detail.CategoryId</td>
+        <td>@ViewBag.detail.Featured</td>
+
+    </tr>
+
+</table>
+
+<a asp-controller="product" asp-action="index">Back</a>
