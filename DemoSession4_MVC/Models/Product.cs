@@ -23,7 +23,7 @@ public partial class Product
 
     public int CategoryId { get; set; }
 
-    public bool? Featured { get; set; }
+    public bool Featured { get; set; }
 
     public virtual Category Category { get; set; } = null!;
 

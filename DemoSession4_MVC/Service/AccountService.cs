@@ -7,4 +7,5 @@ public interface AccountService
     public List<Account> findAll();
 
     public Account findById(int id);
+    public bool Create(Account account);
 }

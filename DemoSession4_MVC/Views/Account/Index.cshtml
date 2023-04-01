@@ -1,7 +1,11 @@
 ﻿<h3>List Account</h3>
 
 <a asp-controller="home" asp-action="index">back</a>
-
+<br />
+<button style="width:50px;height50px"><a asp-controller="account" asp-action="add">ADD</a></button>
+<br/>
+@TempData["msg"]
+<br />
 <table border="1" width="600px">
     <tr>
         <th>Id</th>

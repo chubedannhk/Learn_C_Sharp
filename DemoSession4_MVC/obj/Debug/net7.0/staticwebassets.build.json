@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xn7B1akID1/Y+/OcSEi6LtnaDPZ9s0H7o5KeaccL1Ek=",
+  "Hash": "T0JpFVLzOUFzCTDeZtij3ue+8DqzUAV0TNwK8INht3g=",
   "Source": "DemoSession4_MVC",
   "BasePath": "_content/DemoSession4_MVC",
   "Mode": "Default",
@@ -66,6 +66,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\anh3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\down.png",
+      "SourceId": "DemoSession4_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession4_MVC",
+      "RelativePath": "images/down.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\down.png"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\no_images.png",
+      "SourceId": "DemoSession4_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession4_MVC",
+      "RelativePath": "images/no_images.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\no_images.png"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\up.png",
+      "SourceId": "DemoSession4_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession4_MVC",
+      "RelativePath": "images/up.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\up.png"
     }
   ]
 }

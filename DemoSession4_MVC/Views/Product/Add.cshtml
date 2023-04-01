@@ -1,0 +1,78 @@
+﻿@*nho match vao*@
+@model DemoSession4_MVC.Models.Product
+<h3> ADD Product</h3>
+<a asp-controller="product" asp-action="index">Back</a>
+
+<form method="post" asp-controller="product" asp-action="add" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" asp-for="Name" />
+            </td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>
+                <input type="number" asp-for="Price" />
+            </td>
+        </tr>
+        <tr>
+            <td>Quantity</td>
+            <td>
+                <input type="number" asp-for="Quantity" />
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">Description</td>
+            <td>
+                <textarea asp-for="Description" cols="20" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>
+                <input type="checkbox" asp-for="Status" />
+            </td>
+        </tr>
+        <tr>
+            <td>Photo</td>
+            <td>
+                @*  // nho gan enctype de co the upload file*@
+                <input type="file" name="file" />
+            </td>
+        </tr>
+        <tr>
+            <td>Created</td>
+            <td>
+                <input type="text" asp-for="Created" asp-format="{0:MM/dd/yyyy}" />
+            </td>
+        </tr>
+        @*// muon load categoryid phai tao categoryservice de load len combobox*@
+        <tr>
+            <td>CategoryId</td>
+            <td>
+
+                <select asp-for="CategoryId">
+                    @foreach (var item in ViewBag.categories)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </select>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>Featured</td>
+            <td>
+                <input type="checkbox" asp-for="Featured" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Save"/>
+            </td>
+        </tr>
+    </table>
+</form>

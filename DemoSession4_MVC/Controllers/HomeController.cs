@@ -7,7 +7,7 @@ namespace DemoSession4_MVC.Controllers;
 public class HomeController : Controller
 {
    
-    [Route("~/")]
+  //  [Route("~/")]
     [Route("")]
     [Route("index")]
     public IActionResult Index()

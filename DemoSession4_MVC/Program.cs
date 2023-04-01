@@ -19,6 +19,7 @@ builder.Services.AddDbContext<DatabaseContext>(option => option.UseLazyLoadingPr
 //
 builder.Services.AddScoped<ProductService, ProductServiceImpl>();
 builder.Services.AddScoped<AccountService, AccountServiceImpl>();
+builder.Services.AddScoped<CategoryService, CategoryServiceImpl>();
 // add để bk đang cần dùng controllers vs view
 
 builder.Services.AddControllersWithViews();

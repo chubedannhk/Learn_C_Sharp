@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Account/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Account/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Product/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Product/Detail.cshtml]

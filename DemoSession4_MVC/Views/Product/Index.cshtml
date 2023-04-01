@@ -1,10 +1,28 @@
 ﻿<h3> List Product</h3>
 <a asp-controller="home" asp-action="index">Back</a>
+<fieldset>
+    <legend> Search By KeyWord </legend>
+    <form method="get" asp-controller="product" asp-action="searchByName">
+        Keyword <input type="text" name="keyword" value="@ViewBag.keyword" />
+        </br>
+        <input type="submit" value="Search" />
+
+    </form>
+</fieldset>
+<br />
+<button style="width:50px;height:50px"><a asp-controller="product" asp-action="add">Add</a></button>
+<br />
+@TempData["msg"]
+<br />
 <table border="1" width="1000px">
     <tr>
         <th>Id</th>
         <th>Name</th>
-        <th>Price</th>
+        <th>
+            Price
+            <a asp-controller="product" asp-action="sort" asp-route-direction="asc"><img src="~/images/up.png"/></a>
+            <a asp-controller="product" asp-action="sort" asp-route-direction="desc"><img src="~/images/down.png" /></a>
+        </th>
         <th>Quantity</th>
         <th>Description</th>
         <th>Status</th>

@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\images\\anh3.jpg"
     },
     {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\down.png",
+      "PackagePath": "staticwebassets\\images\\down.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\no_images.png",
+      "PackagePath": "staticwebassets\\images\\no_images.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\up.png",
+      "PackagePath": "staticwebassets\\images\\up.png"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DemoSession4_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

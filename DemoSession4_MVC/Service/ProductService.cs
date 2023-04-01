@@ -6,4 +6,14 @@ public interface ProductService
 {
     public List<Product> findAll();
     public Product findById(int id);
+
+    // ham tiem kiem
+    public List<Product> searchByName(string keyword);
+
+    // ham sort
+    public List<Product> sort(string direction);
+
+    // kiem tra add product duoc hay khong
+    public bool Create(Product product);
+
 }
