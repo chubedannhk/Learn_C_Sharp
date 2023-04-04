@@ -11,18 +11,18 @@ public class ProductController : Controller
     private ProductService productService;
     private CategoryService categoryService;
     private IWebHostEnvironment WebHostEnvironment;
-    public ProductController(ProductService _productService,CategoryService _categoryService, IWebHostEnvironment _webHostEnvironment)
+    public ProductController(ProductService _productService, CategoryService _categoryService, IWebHostEnvironment _webHostEnvironment)
     {
         productService = _productService;
         categoryService = _categoryService;
         WebHostEnvironment = _webHostEnvironment;
     }
-   
 
-   
+
+
 
     [Route("")]
-   // [Route("~/")]
+  //  [Route("~/")]
     [Route("index")]
     public IActionResult Index()
     {
@@ -41,7 +41,7 @@ public class ProductController : Controller
     public IActionResult searchByName(string keyword)
     {
         ViewBag.product = productService.searchByName(keyword);
-     
+
         return View("index");
     }
 
@@ -59,7 +59,8 @@ public class ProductController : Controller
     [Route("add")]
     public IActionResult Add()
     {
-        var product = new Product() {
+        var product = new Product()
+        {
             Created = DateTime.Now,
         };
         ViewBag.categories = categoryService.findAll();
@@ -70,7 +71,7 @@ public class ProductController : Controller
     [Route("add")]
     public IActionResult Add(Product product, IFormFile file)
     {
-        if(file != null)
+        if (file != null)
         {
             var fileName = FileHelper.generateFileName(file.FileName);
 
@@ -89,6 +90,61 @@ public class ProductController : Controller
         }
         // hien thi thong bao
         if (productService.Create(product))
+        {
+            TempData["msg"] = "Done";
+        }
+        else
+        {
+            TempData["msg"] = "Failed";
+        }
+        return RedirectToAction("Index");
+    }
+
+    [Route("delete/{id}")]
+    public IActionResult Delete(int id)
+    {
+        if (productService.Delete(id))
+        {
+            TempData["msg"] = "Done";
+        }
+        else
+        {
+            TempData["msg"] = "Failed";
+        }
+        return RedirectToAction("Index");
+    }
+
+    //update
+   
+    [HttpGet]
+    [Route("update/{id}")]
+    public IActionResult Update(int id)
+    {
+        var product = productService.findById(id);
+        ViewBag.categories = categoryService.findAll();
+        return View("update", product);
+    }
+
+    [HttpPost]
+    [Route("update/{id}")]
+    public IActionResult Update(int id, Product product, IFormFile file)
+    {
+        product.Id = id;
+        if(file != null)
+        {
+            var fileName = FileHelper.generateFileName(file.FileName);
+
+            // tao bien chua duong dan
+            // combine dung de tra ve chuoi duong dan
+            var path = Path.Combine(WebHostEnvironment.WebRootPath, "images", fileName);
+            using (var fileStream = new FileStream(path, FileMode.Create))
+            {
+                file.CopyTo(fileStream);
+            }
+            product.Photo = fileName;
+        }
+
+        if (productService.Update(product))
         {
             TempData["msg"] = "Done";
         }

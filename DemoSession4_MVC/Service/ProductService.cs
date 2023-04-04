@@ -16,4 +16,8 @@ public interface ProductService
     // kiem tra add product duoc hay khong
     public bool Create(Product product);
 
+    public bool Delete(int id);
+
+    public bool Update(Product product);
+
 }

@@ -31,6 +31,7 @@
         <th>CategoryId</th>
         <th>Featured</th>
         <th>Detail</th>
+        <th>Action</th>
     </tr>
     @foreach (var pro in ViewBag.product)
     {
@@ -49,6 +50,10 @@
             <td>@pro.CategoryId</td>
             <td>@pro.Featured</td>
             <td><a asp-controller="product" asp-action="detail" asp-route-id="@pro.Id">More</a></td>
+            <td>
+                <a asp-controller="product" asp-action="delete" asp-route-id="@pro.Id" onclick="return confirm('Are you sure?')">Delete</a> |
+                <a asp-controller="product" asp-action="update" asp-route-id="@pro.Id">Update</a>
+            </td>
         </tr>
     }
 </table>

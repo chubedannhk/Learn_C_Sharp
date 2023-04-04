@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T0JpFVLzOUFzCTDeZtij3ue+8DqzUAV0TNwK8INht3g=",
+  "Hash": "HDdfxdYsbwFtBI0BHZr09jlQQIVvxcZGmZfQq12igoE=",
   "Source": "DemoSession4_MVC",
   "BasePath": "_content/DemoSession4_MVC",
   "Mode": "Default",
@@ -66,6 +66,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\anh3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\b0deb04a16764fefb6e6bb85f798d5c4.jpg",
+      "SourceId": "DemoSession4_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession4_MVC",
+      "RelativePath": "images/b0deb04a16764fefb6e6bb85f798d5c4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b0deb04a16764fefb6e6bb85f798d5c4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\cdc7322e5d5b4d0b9403f1189d611456.jpeg",
+      "SourceId": "DemoSession4_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession4_MVC",
+      "RelativePath": "images/cdc7322e5d5b4d0b9403f1189d611456.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cdc7322e5d5b4d0b9403f1189d611456.jpeg"
     },
     {
       "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\images\\down.png",

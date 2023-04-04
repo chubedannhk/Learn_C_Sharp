@@ -50,4 +50,32 @@ public class ProductServiceImpl : ProductService
             return false;
         }
     }
+
+    public bool Delete(int id)
+    {
+        try
+        {
+            db.Products.Remove(db.Products.Find(id));
+
+            return db.SaveChanges() > 0;
+        }
+        catch (Exception ex)
+        {
+            return false;
+        }
+    }
+
+    //update product 
+    public bool Update(Product product)
+    {
+        try
+        {
+            db.Entry(product).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            return db.SaveChanges() > 0;
+        }
+        catch
+        {
+            return false;
+        }
+    }
 }

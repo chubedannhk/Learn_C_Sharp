@@ -1,0 +1,37 @@
+﻿@model DemoSession4_MVC.Models.Account
+<h3>Update Account</h3>
+<a asp-controller="account" asp-action="index">Back</a>
+<form method="post" asp-controller="account" asp-action="update">
+    <table>
+        <tr>
+            <td>Username</td>
+            <td>
+                <input type="text" asp-for="Username" name="Username" />
+            </td>
+        </tr>
+       
+        <tr>
+            <td>FullName</td>
+            <td>
+                <input type="text" asp-for="FullName" name="FullName"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" asp-for="Email" name="Email" />
+            </td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>
+                <input type="text" asp-for="Status" name="Status" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Update" />
+            </td>
+        </tr>
+    </table>
+</form>

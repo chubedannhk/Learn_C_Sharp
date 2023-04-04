@@ -6,7 +6,7 @@ namespace DemoSession1_MVC.Controllers;
 [Route("question")]
 public class QuestionController : Controller
 {
-    [Route("~/")]
+    //[Route("~/")]
     [Route("index")]
     public IActionResult Index()
     {

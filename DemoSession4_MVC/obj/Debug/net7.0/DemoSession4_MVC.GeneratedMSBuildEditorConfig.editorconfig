@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Account/AccDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Account/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +30,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Account/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Account/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Home/Index.cshtml]
@@ -42,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ACER/Desktop/CSharp/Learn_C_Sharp/DemoSession4_MVC/_ViewImports.cshtml]

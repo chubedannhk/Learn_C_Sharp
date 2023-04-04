@@ -1,12 +1,11 @@
-﻿<h3>List Account</h3>
-
+﻿<h3>List Account </h3>
 <a asp-controller="home" asp-action="index">back</a>
 <br />
-<button style="width:50px;height50px"><a asp-controller="account" asp-action="add">ADD</a></button>
+<button style="width:50px;height50px"><a asp-controller="account" asp-action="add">ADD</a></button> 
 <br/>
 @TempData["msg"]
 <br />
-<table border="1" width="600px">
+<table border="1" width="650px">
     <tr>
         <th>Id</th>
         <th>Username</th>
@@ -14,6 +13,7 @@
         <th>Email</th>
         <th>Status</th>
         <th>Detail</th>
+        <th>Action</th>
     </tr>
     @foreach (var acc in ViewBag.account)
     {
@@ -24,7 +24,10 @@
             <td>@acc.Email</td>
             <td>@acc.Status</td>
             <td><a asp-controller="account" asp-action="detail" asp-route-id="@acc.Id">More</a></td>
-
+            <td>
+                <a asp-controller="account" asp-action="update" asp-route-id="@acc.Id">Update</a> |
+                <a asp-controller="account" asp-action="delete" asp-route-id="@acc.Id">Remove</a>
+            </td>
             
         </tr>
     }

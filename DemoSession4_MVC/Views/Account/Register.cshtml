@@ -1,0 +1,59 @@
+﻿@model DemoSession4_MVC.Models.Account
+<h2>Register Account</h2>
+<a asp-controller="account" asp-action="login">back page login</a>
+@TempData["msg"];
+<form method="post" asp-controller="account" asp-action="register">
+    <table>
+        <tr>
+            <td>Username</td>
+            <td>
+                <input type="text" asp-for="Username" />
+            </td>
+            <td>
+                <span asp-validation-for="Username" class="error"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+                <input type="password" asp-for="Password"  />
+            </td>
+            <td>
+                <span asp-validation-for="Password" class="error"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>FullName</td>
+            <td>
+                <input type="text" asp-for="FullName" />
+            </td>
+            <td>
+                <span asp-validation-for="FullName" class="error"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" asp-for="Email" />
+            </td>
+            <td>
+                <span asp-validation-for="Email" class="error"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <input type="submit" value="REGISTER" />
+            </td>
+        </tr>
+    </table>
+
+</form>
+
+             
+<style>
+    .error {
+        color: red
+    }
+</style>

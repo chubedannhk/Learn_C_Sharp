@@ -16,7 +16,7 @@ public class Demo3Controller : Controller
     //=============================================================
     [Route("index")]
     [Route("")]
- //  [Route("~/")]
+     [Route("~/")]
     public IActionResult Index()
     {
         // tao de phat sinh chuoi duy nhat

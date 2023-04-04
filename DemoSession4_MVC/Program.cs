@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSession();
 
 //var key1 = builder.Configuration["Key1"];
 //Debug.WriteLine("Key1 - program: "+key1);
@@ -20,6 +21,9 @@ builder.Services.AddDbContext<DatabaseContext>(option => option.UseLazyLoadingPr
 builder.Services.AddScoped<ProductService, ProductServiceImpl>();
 builder.Services.AddScoped<AccountService, AccountServiceImpl>();
 builder.Services.AddScoped<CategoryService, CategoryServiceImpl>();
+//
+
+
 // add để bk đang cần dùng controllers vs view
 
 builder.Services.AddControllersWithViews();
@@ -31,6 +35,7 @@ var app = builder.Build();
 
 // đi vào fodder www để lấy hình ảnh
 app.UseStaticFiles();
+app.UseSession();
 //================================
 //app.MapControllerRoute(name: "default", pattern: "{controller=demo}/{action=index}");
 app.MapControllerRoute(name: "default", pattern: "{controller}/{action}");

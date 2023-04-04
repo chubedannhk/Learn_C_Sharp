@@ -1,0 +1,55 @@
+﻿@model DemoSession4_MVC.Models.Account
+
+<h2>Account Details from Welcome Page</h2>
+<form>
+<table width="500px">
+<tr>
+    <td>
+        <label>UserName</label>
+    </td>
+    <td>
+        <input type="text" asp-for="Username"/>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <label>Password</label>
+    </td>
+    <td>
+        <input type="password" asp-for="Password" />
+    </td>
+</tr>
+<tr>
+    <td>
+        <label>FullName</label>
+    </td>
+    <td>
+        <input type="text" asp-for="FullName" />
+    </td>
+</tr>
+<tr>
+    <td>
+        <label>Email</label>
+    </td>
+    <td>
+        <input type="text" asp-for="Email" />
+    </td>
+</tr>
+<tr>
+    <td>
+        <label>Status</label>
+    </td>
+    <td>
+        <input type="checkbox" asp-for="Status" />
+    </td>
+</tr>
+<tr>
+    <td>&nbsp</td>
+    <td>
+        <input type="submit" value="Update" />
+    </td>
+</tr>
+</table>
+
+</form>
