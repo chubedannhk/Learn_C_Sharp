@@ -1,0 +1,32 @@
+﻿<h3>Categories</h3>
+<br/>
+Id : @ViewBag.Id
+<br />
+UserName: @ViewBag.Username
+<br />
+<table border="1">
+    <th>Id</th>
+    <th>Name</th>
+    @foreach(var categories in ViewBag.categories)
+    {
+        <tr>
+            <td>@categories.Id</td>
+            <td>@categories.Name</td>
+
+        </tr>
+       
+    }
+</table>
+<br />
+1. Tao tag hien thi N san pham moi nhat
+<br />
+2. Tao tag hien thi chi tiet 1 hoa don
+<br />
+    1. Thong tin khach hang
+<br />
+    2. Thong tin hoa don
+<br />
+    3. Danh sach san pham
+<br />
+
+

@@ -13,7 +13,7 @@ public class AccountController : Controller
     {
         accountService = _accountService;
     }
-    [Route("~/")]
+ //   [Route("~/")]
     [Route("login")]
     public IActionResult Login()
     {

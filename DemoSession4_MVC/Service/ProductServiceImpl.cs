@@ -78,4 +78,11 @@ public class ProductServiceImpl : ProductService
             return false;
         }
     }
+
+    
+
+    public List<Product> sortPro(int amount)
+    {
+        return db.Products.OrderByDescending(p => p.Id).Take(amount).ToList();
+    }
 }

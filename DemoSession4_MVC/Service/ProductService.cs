@@ -20,4 +20,7 @@ public interface ProductService
 
     public bool Update(Product product);
 
+    // 
+    public List<Product> sortPro(int amount);
+
 }

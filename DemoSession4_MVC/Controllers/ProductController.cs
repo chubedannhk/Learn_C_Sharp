@@ -121,7 +121,7 @@ public class ProductController : Controller
     public IActionResult Update(int id)
     {
         var product = productService.findById(id);
-        ViewBag.categories = categoryService.findAll();
+     //   ViewBag.categories = categoryService.findAll();
         return View("update", product);
     }
 
