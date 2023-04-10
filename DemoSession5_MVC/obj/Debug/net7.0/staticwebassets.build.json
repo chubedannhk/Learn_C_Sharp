@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "viKr9kf2NYErmwK0mizswY9F6bYY5HzFm1AQNqQnSJA=",
+  "Source": "QuanLyHoaDon",
+  "BasePath": "_content/QuanLyHoaDon",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "QuanLyHoaDon\\wwwroot",
+      "Source": "QuanLyHoaDon",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession5_MVC\\wwwroot\\",
+      "BasePath": "_content/QuanLyHoaDon",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

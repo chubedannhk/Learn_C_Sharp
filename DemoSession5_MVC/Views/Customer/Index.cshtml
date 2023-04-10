@@ -1,0 +1,50 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NguyenHoangKhai - QuanLyDonHang</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>List Customer</h2>
+        <h3>@TempData["msg"]</h3>
+        <table class="table">
+            <thead>
+                <tr class="danger">
+                    <th>Customer ID</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Birthday</th>
+                    <th>Phone</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var cus in ViewBag.customer)
+                {
+                    <tr class="active">
+                        <td>@cus.Id</td>
+                        <td>@cus.Name</td>
+                        <td>@cus.Address</td>
+                        <td>@cus.Birthday.ToString("dd/MM/yyyy")</td>
+                        <td>@cus.Phone</td>
+                        <td>
+                            <a asp-controller="orders" asp-action="add" asp-route-id="@cus.Id">Add new orders</a> |
+                            <a asp-controller="orders" asp-action="index" asp-route-id="@cus.Id">View Orders</a> |
+                            <a asp-controller="customer" asp-action="update" asp-route-id="@cus.Id">Change Profile</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+      
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿@*@model QuanLyHoaDon.Models.Customer
+*@
+@model QuanLyHoaDon.Models.Order
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>nguyenhoangkhai</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2 align="center">Add New Order</h2>
+        <form class="form-horizontal" method="post" asp-controller="orders" asp-action="addOrder">
+            @* name order*@
+            <div class="form-group">
+                <label class="control-label col-sm-2">Name Order</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Enter Name Order" asp-for="Name">
+                </div>
+            </div>
+
+            @*  create day*@
+            <div class="form-group">
+                <label class="control-label col-sm-2">Created Day</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" asp-for="Datecreation">
+                </div>
+            </div>
+
+           
+           
+            @* payment*@
+            <div class="form-group">
+                <label class="control-label col-sm-2">Payment</label>
+                <div class="col-sm-10">
+                    <select class="form-control" asp-for="Payments">
+                        <option class="form-control" value="cash">Cash</option>
+                        <option class="form-control" value="visa card">Visa Card</option>
+                        <option class="form-control" value="master card">Master Card</option>
+                        <option class="form-control" value="paypal">Paypal</option>
+                    </select>
+                </div>
+            </div>
+            @* customer id*@
+            <div class="form-group">
+                <label class="control-label col-sm-2">Customer Id</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" asp-for="Customerid">
+                </div>
+            </div>
+            @*status*@
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label><input type="checkbox" asp-for="Status"> Status</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Order</button>
+                </div>
+            </div>
+        </form>
+        <h3 align="center"><a asp-controller="customer" asp-action="index">Back to Index</a></h3>
+    </div>
+
+</body>
+</html>
+@*onclick="return confirm('Are you sure?')"*@

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NguyenHoangKhai</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>List View Orders</h2>
+
+        <table class="table">
+            <thead>
+                <tr class="danger">
+                    <th>ID Order</th>
+                    <th>Name</th>
+                    <th>Date Creation</th>
+                    <th>Status</th>
+                    <th>Payments</th>
+                    <th>Customer ID</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in ViewBag.viewOrder)
+                {
+                    <tr class="active">
+                        <td>@order.Id</td>
+                        <td>@order.Name</td>
+                        <td>@order.Datecreation.ToString("dd/MM/yyyy")</td>
+                        <td>@order.Status</td>
+                        <td>@order.Payments</td>
+                        <td>@order.Customerid</td>
+                        <td>
+
+                            <a asp-controller="orders" asp-action="delete" asp-route-id="@order.Id" onclick="return confirm('Are you sure?')">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <h3 align="center"><a asp-controller="customer" asp-action="index">Back to Index</a></h3>
+    </div>
+
+</body>
+</html>

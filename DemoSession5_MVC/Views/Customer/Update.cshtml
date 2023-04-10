@@ -1,0 +1,64 @@
+﻿@model QuanLyHoaDon.Models.Customer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>nguyenhoangkhai</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2 align="center">Change Profile</h2>
+        <form class="form-horizontal" method="post" asp-controller="customer" asp-action="update">
+           @* name*@
+            <div class="form-group">
+                <label class="control-label col-sm-2">FullName</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Enter Your Name" asp-for="Name">
+                </div>
+            </div>
+           @* address*@
+            <div class="form-group">
+                <label class="control-label col-sm-2" >Address</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Enter Your Addres" asp-for="Address">
+                </div>
+            </div>
+          @*  birthday*@
+            <div class="form-group">
+                <label class="control-label col-sm-2" >Birthday</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" placeholder="Enter Your Birthday" asp-for="Birthday">
+                </div>
+            </div>
+            @*  phone number*@
+            <div class="form-group">
+                <label class="control-label col-sm-2" >Phone</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" placeholder="Enter Your Phone Number" asp-for="Phone" maxlength="11">
+                    @*<span asp-validation-for="Phone"></span>*@
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default" onclick="return confirm('Are you sure?')">Save</button>
+                </div>
+            </div>
+        </form>
+        <h3 align="center"><a asp-controller="customer" asp-action="index">Back to Index</a></h3>
+    </div>
+
+</body>
+</html>
+
+@*<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+            <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+    </div>
+</div>*@
