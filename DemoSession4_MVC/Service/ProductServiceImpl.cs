@@ -85,4 +85,25 @@ public class ProductServiceImpl : ProductService
     {
         return db.Products.OrderByDescending(p => p.Id).Take(amount).ToList();
     }
+
+    // doi tuong an danh
+    public dynamic findByIdAjax(int id)
+    {
+        return db.Products.Where(p => p.Id == id).Select(p => new
+        {
+            id = p.Id,
+            name = p.Name,
+            price = p.Price,
+        }).FirstOrDefault();
+    }
+
+    public dynamic findAllAjax()
+    {
+        return db.Products.Select(p => new
+        {
+            id = p.Id,
+            name = p.Name,
+            price = p.Price,
+        }).ToList();
+    }
 }

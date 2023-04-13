@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\up.png"
     },
     {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\js\\jquery-3.6.4.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.4.min.js"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DemoSession4_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

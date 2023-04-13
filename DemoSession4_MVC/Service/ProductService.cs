@@ -23,4 +23,9 @@ public interface ProductService
     // 
     public List<Product> sortPro(int amount);
 
+    //public dynamic : doi tuong an danh
+    public dynamic findByIdAjax(int id);
+
+    public dynamic findAllAjax();
+
 }

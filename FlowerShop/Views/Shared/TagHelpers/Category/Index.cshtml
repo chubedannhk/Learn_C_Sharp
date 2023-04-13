@@ -1,0 +1,14 @@
+﻿<div class="title">
+    <span class="title_icon">
+        <img src="~/user/images/bullet5.gif" alt="" title="" />
+    </span>Categories
+</div>
+
+<ul class="list">
+    @foreach (var category in ViewBag.categories)
+    {
+        <li><a href="#">@category.Name</a></li>
+
+    }
+   
+</ul>

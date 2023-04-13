@@ -7,60 +7,34 @@
         <img src="~/user/images/bullet1.gif" alt="" title="" />
     </span>Featured products
 </div>
-
+ @foreach (var featured in ViewBag.FeaturedProducts)
+    {
 <div class="feat_prod_box">
-
-    <div class="prod_img">
-        <a href="details.html">
-            <img src="~/user/images/prod1.gif" alt="" title="" border="0" />
-        </a>
-    </div>  
-
-    <div class="prod_det_box">
-        <div class="box_top"></div>
-        <div class="box_center">
-            <div class="prod_title">Product name</div>
-            <p class="details">
-                Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation.
-            </p>
-            <a href="details.html" class="more">- more details -</a>
-            <div class="clear"></div>
+   
+        <div class="prod_img">
+            <a asp-controller="product" asp-action="detail" asp-route-id="@featured.Id">
+                <img src="~/images/@featured.Photo" alt="" title="" border="0" width="120px" height="120px"/>
+            </a>
         </div>
 
-        <div class="box_bottom"></div>
-    </div>
-    <div class="clear"></div>
-</div>
+        <div class="prod_det_box">
+            <div class="box_top"></div>
+            <div class="box_center">
+                <div class="prod_title">@featured.Name</div>
+                <p class="details">
+                    @featured.Description
+                </p>
+                <a asp-controller="product" asp-action="details" asp-route-id="@featured.Id" class="more">- more details -</a>
+                <div class="clear"></div>
+            </div>
 
-<div class="feat_prod_box">
-
-    <div class="prod_img">
-        <a href="details.html">
-            <img src="~/user/images/prod2.gif" alt="" title="" border="0" />
-        </a>
-    </div>
-
-    <div class="prod_det_box">
-        <div class="box_top"></div>
-        <div class="box_center">
-            <div class="prod_title">Product name</div>
-            <p class="details">
-                Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation.
-            </p>
-            <a href="details.html" class="more">- more details -</a>
-            <div class="clear"></div>
+            <div class="box_bottom"></div>
         </div>
-
-        <div class="box_bottom"></div>
-    </div>
+    
+    
     <div class="clear"></div>
 </div>
+}
 
 <div class="title">
     <span class="title_icon">
@@ -68,39 +42,20 @@
     </span>New products
 </div>
 <div class="new_products">
-
-    <div class="new_prod_box">
-        <a href="details.html">product name</a>
-        <div class="new_prod_bg">
-            <span class="new_icon">
-                <img src="~/user/images/new_icon.gif" alt="" title="" />
-            </span> <a href="details.html">
-                <img src="~/user/images/thumb1.gif" alt="" title="" class="thumb" border="0" />
-            </a>
+    @foreach (var productlatest in ViewBag.productsLastest)
+    {
+        <div class="new_prod_box">
+            <a asp-controller="product" asp-action="detail" asp-route-id="@productlatest.Id">@productlatest.Name</a>
+            <div class="new_prod_bg">
+                <span class="new_icon">
+                    <img src="~/user/images/new_icon.gif" alt="" title="" />
+                </span> <a asp-controller="product" asp-action="detail" asp-route-id="@productlatest.Id">
+                    <img src="~/images/@productlatest.Photo" alt="" title="" class="thumb" border="0" width="120px" height="120px"/>
+                </a>
+            </div>
         </div>
-    </div>
-
-    <div class="new_prod_box">
-        <a href="details.html">product name</a>
-        <div class="new_prod_bg">
-            <span class="new_icon">
-                <img src="~/user/images/new_icon.gif" alt="" title="" />
-            </span> <a href="details.html">
-                <img src="~/user/images/thumb2.gif" alt="" title="" class="thumb" border="0" />
-            </a>
-        </div>
-    </div>
-
-    <div class="new_prod_box">
-        <a href="details.html">product name</a>
-        <div class="new_prod_bg">
-            <span class="new_icon">
-                <img src="~/user/images/new_icon.gif" alt="" title="" />
-            </span> <a href="details.html">
-                <img src="~/user/images/thumb3.gif" alt="" title="" class="thumb" border="0" />
-            </a>
-        </div>
-    </div>
+    }
+   
 
 </div>
 

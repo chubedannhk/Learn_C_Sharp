@@ -8217,6 +8217,38 @@
       "PackagePath": "staticwebassets\\admin\\plugins\\uplot\\uPlot.min.css"
     },
     {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\FlowerShop\\wwwroot\\images\\anh1.jpg",
+      "PackagePath": "staticwebassets\\images\\anh1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\FlowerShop\\wwwroot\\images\\anh2.jpg",
+      "PackagePath": "staticwebassets\\images\\anh2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\FlowerShop\\wwwroot\\images\\anh3.jpg",
+      "PackagePath": "staticwebassets\\images\\anh3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\FlowerShop\\wwwroot\\images\\b0deb04a16764fefb6e6bb85f798d5c4.jpg",
+      "PackagePath": "staticwebassets\\images\\b0deb04a16764fefb6e6bb85f798d5c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\FlowerShop\\wwwroot\\images\\cdc7322e5d5b4d0b9403f1189d611456.jpeg",
+      "PackagePath": "staticwebassets\\images\\cdc7322e5d5b4d0b9403f1189d611456.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\FlowerShop\\wwwroot\\images\\down.png",
+      "PackagePath": "staticwebassets\\images\\down.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\FlowerShop\\wwwroot\\images\\no_images.png",
+      "PackagePath": "staticwebassets\\images\\no_images.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\FlowerShop\\wwwroot\\images\\up.png",
+      "PackagePath": "staticwebassets\\images\\up.png"
+    },
+    {
       "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\FlowerShop\\wwwroot\\user\\css\\lightbox.css",
       "PackagePath": "staticwebassets\\user\\css\\lightbox.css"
     },

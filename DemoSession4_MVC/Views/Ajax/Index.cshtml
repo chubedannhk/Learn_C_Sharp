@@ -1,0 +1,176 @@
+﻿<script src="~/js/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        //demo1
+        //alert('Hello Master NguyenHoangKhai');
+        $('#buttonDemo1').click(function () {
+            $.ajax({
+                // khai bao kieu phuong thuc
+                type: 'GET',
+                // khai bao duong dan
+                url: '/ajax/ajax1',
+                // sau khi khai bao kieu method va duong dan thi goi bien du lieu se do vao 'data'
+                success: function (data) {
+                    //kiem thu o trong console
+                    // console.log(data);
+                    $('#result1').html(data.msg);
+                }
+            });
+        });
+
+        //demo 2
+        $('#buttonDemo2').click(function () {
+            var fullName = $('#fullName').val();
+            $.ajax({
+                // khai bao kieu phuong thuc, va duong dan ve controller
+                type: 'GET',
+                url: '/ajax/ajax2',
+                // muon truyen du lieu thi dung data
+                data: {
+                    FullName: fullName
+                },
+                success: function (data) {
+                    $('#result2').html(data.msg);
+                }
+            });
+        });
+
+        //demo 3: check username
+        $('#buttonCheck').click(function () {
+            var username = $('#username').val();
+            $.ajax({
+                // khai bao kieu phuong thuc, va duong dan ve controller
+                type: 'GET',
+                url: '/ajax/ajax3',
+                // muon truyen du lieu thi dung data
+                data: {
+                    Username: username
+                },
+                success: function (data) {
+                    //$('#result3').html(data.msg);
+
+                    if (data.exist) {
+                        $('#result3').html('<span style="color:red">Username da ton tai </span>');
+                    } else {
+                        $('#result3').html('<span style="color:green">Username hop le </span>');
+                    }
+                }
+            });
+        });
+
+        //demo 4: check Login
+        $('#buttonLogin').click(function () {
+            var username = $('#username2').val();
+            var password = $('#password').val();
+            $.ajax({
+                // khai bao kieu phuong thuc, va duong dan ve controller
+                type: 'POST',
+                url: '/ajax/login',
+                // muon truyen du lieu thi dung data
+                data: {
+                    Username: username,
+                    Password: password
+                },
+                success: function (data) {
+                    if (data.valig) {
+                        $('#result4').html('<span style="color:green">Username va Password Hop Le </span>');
+                    } else {
+                        $('#result4').html('<span style="color:red">Username va Password Khong Hop Le </span>');
+                    }
+                }
+            });
+        });
+
+        // demo 5:
+
+        $('#buttonDemo5').click(function () {
+            $.ajax({
+                type: 'GET',
+                url: '/ajax/find',
+                success: function (product) {
+                    console.log(product);
+                    var result = 'id: ' + product.id;
+                    result += '<br>name: ' + product.name;
+                    result += '<br>price: ' + product.price;
+                    $('#result5').html(result);
+                }
+            });
+        });
+
+        // demo 6: load du lieu bang
+
+        $('#buttonDemo6').click(function () {
+            $.ajax({
+                type: 'GET',
+                url: '/ajax/findAll',
+                success: function (products) {
+                    console.log(products.length);
+                    var result = '';
+                    for (var i = 0; i < products.length; i++) {
+                        result += '<tr>';
+                        result += '<td>' + products[i].id + '</td>';
+                        result += '<td>' + products[i].name + '</td>';
+                        result += '<td>' + products[i].price + '</td>';
+                        result += '<tr>';
+                        $('#mytable tbody').html(result);
+                    }
+                }
+            });
+        });
+    });
+</script>
+<h3>HOW TO USES AJAX - Demo1</h3>
+<input type="button" value=" Demo 1" id="buttonDemo1" />
+<br />
+<span id="result1"></span>
+
+
+<h3>HOW TO USES AJAX - Demo2</h3>
+FullName
+<input type="text" id="fullName" />
+<br />
+<input type="button" value=" Demo 2" id="buttonDemo2" />
+<br />
+<span id="result2"></span>
+
+<h3>HOW TO USES AJAX - Demo3</h3>
+UserName
+<input type="text" id="username" />
+<br />
+<input type="button" value="check" id="buttonCheck" />
+<br />
+<span id="result3"></span>
+
+<h3>HOW TO USES AJAX - Demo4</h3>
+UserName
+<input type="text" id="username2" />
+<br />
+Password
+<input type="password" id="password" />
+<br />
+<input type="button" value="check" id="buttonLogin" />
+<br />
+<span id="result4"></span>
+
+
+<h3>HOW TO USES AJAX - Demo5</h3>
+<input type="button" value=" Demo 5" id="buttonDemo5" />
+<br />
+<span id="result5"></span>
+
+<h3>HOW TO USES AJAX - Demo6</h3>
+<input type="button" value=" Demo 5" id="buttonDemo6" />
+<br />
+<table border="1" id="mytable">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+
+    </thead>
+    <tbody >
+       
+    </tbody>
+</table>

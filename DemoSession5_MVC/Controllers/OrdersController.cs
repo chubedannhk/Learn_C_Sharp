@@ -54,6 +54,7 @@ public class OrdersController : Controller
     [Route("delete/{id}")]
     public IActionResult Delete(int id)
     {
+        var customer = ordersService.findCustomerId(id);
         if (ordersService.Delete(id))
         {
             TempData["msg"] = "Done";
@@ -62,6 +63,9 @@ public class OrdersController : Controller
         {
             TempData["msg"] = "Failed";
         }
-        return RedirectToAction("index","customer");
+        return RedirectToAction("index", "orders", new
+        {
+            id = customer
+        });
     }
 }

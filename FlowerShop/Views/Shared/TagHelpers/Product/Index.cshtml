@@ -1,0 +1,19 @@
+﻿<div class="title">
+    <span class="title_icon">
+        <img src="~/user/images/bullet4.gif" alt="" title="" />
+    </span>Promotions
+</div>
+<div class="new_prod_box">
+    @foreach (var product in ViewBag.product)
+    {
+        <a href="details.html">@product.Name</a>
+        <div class="new_prod_bg">
+            <span class="new_icon">
+                <img src="~/user/images/promo_icon.gif" alt="" title="" />
+            </span> <a href="details.html">
+                <img src="~/images/@product.Photo" alt="" title="" class="thumb" border="0" width="80px" height="80px"/>
+            </a>
+        </div>
+    }
+    
+</div>

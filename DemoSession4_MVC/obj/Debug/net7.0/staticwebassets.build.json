@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HDdfxdYsbwFtBI0BHZr09jlQQIVvxcZGmZfQq12igoE=",
+  "Hash": "XviML2WA5oNpNT+ZXV5oRl9q6jKPDHFh98pxmR7xs3Y=",
   "Source": "DemoSession4_MVC",
   "BasePath": "_content/DemoSession4_MVC",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\up.png"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\js\\jquery-3.6.4.min.js",
+      "SourceId": "DemoSession4_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\DemoSession4_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSession4_MVC",
+      "RelativePath": "js/jquery-3.6.4.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-3.6.4.min.js"
     }
   ]
 }
