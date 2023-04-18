@@ -28,4 +28,12 @@ public interface ProductService
 
     public dynamic findAllAjax();
 
+    // lay danh sach ten san pham
+    public List<string> searchAutoComplete(string keyword);
+
+    public dynamic searchByKeywordAjax(string keyword);
+
+    public dynamic searchByCategoryAjax(int categoryId);
+
+    public Product getProductById(int id);
 }

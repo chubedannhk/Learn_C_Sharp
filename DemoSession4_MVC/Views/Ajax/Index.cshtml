@@ -1,4 +1,7 @@
-﻿<script src="~/js/jquery-3.6.4.min.js"></script>
+﻿<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+<script src="~/js/jquery-3.6.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script>
     $(document).ready(function () {
         //demo1
@@ -117,8 +120,18 @@
                 }
             });
         });
+
+        // search theo goi y tu
+        $('#autocomplete').autocomplete({
+            source:'/ajax/searchAotuComplete'
+        })
     });
 </script>
+
+<h3>AutoComplete</h3>
+<input type="text" id="autocomplete" />
+
+
 <h3>HOW TO USES AJAX - Demo1</h3>
 <input type="button" value=" Demo 1" id="buttonDemo1" />
 <br />

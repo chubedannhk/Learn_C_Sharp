@@ -104,6 +104,58 @@ public class ProductServiceImpl : ProductService
             id = p.Id,
             name = p.Name,
             price = p.Price,
+            quantity = p.Quantity,
+            description = p.Description,
+            status = p.Status,
+            photo = p.Photo,
+            created = p.Created,
+            feature = p.Featured,
+            Category = p.Category.Name
         }).ToList();
+    }
+
+    // ham search san pham
+    public List<string> searchAutoComplete(string keyword)
+    {
+        return db.Products.Where(p => p.Name.Contains(keyword)).Select(p=> p.Name).ToList();
+    }
+
+    public dynamic searchByKeywordAjax(string keyword)
+    {
+        return db.Products.Where(p => p.Name.Contains(keyword)).Select(p => new
+        {
+            id=p.Id,
+            name = p.Name,
+            price = p.Price,
+            quantity = p.Quantity,
+            description = p.Description,
+            status = p.Status,
+            photo = p.Photo,
+            created = p.Created,
+            feature = p.Featured,
+            Category = p.Category.Name
+        }).ToList() ;
+    }
+
+    public dynamic searchByCategoryAjax(int categoryId)
+    {
+        return db.Products.Where(p => p.Category.Id == categoryId).Select(p => new
+        {
+            id = p.Id,
+            name = p.Name,
+            price = p.Price,
+            quantity = p.Quantity,
+            description = p.Description,
+            status = p.Status,
+            photo = p.Photo,
+            created = p.Created,
+            featured = p.Featured,
+            category = p.Category.Name
+        }).ToList();
+    }
+
+    public Product getProductById(int id)
+    {
+        return db.Products.Find(id);
     }
 }

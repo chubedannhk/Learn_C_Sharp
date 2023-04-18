@@ -22,7 +22,7 @@ public class ProductController : Controller
 
 
     [Route("")]
-  //  [Route("~/")]
+    // [Route("~/")]
     [Route("index")]
     public IActionResult Index()
     {
@@ -30,6 +30,44 @@ public class ProductController : Controller
         return View();
     }
 
+
+
+    [Route("~/")]
+    [Route("index2")]
+    public IActionResult Index2()
+    {
+        ViewBag.product = productService.findAll();
+        ViewBag.category = categoryService.findAll();
+        return View("index2");
+    }
+
+
+    [Route("searchByKeywordAjax")]
+    public IActionResult SearchByKeywordAjax(string keyword)
+    {
+        if (string.IsNullOrEmpty(keyword))
+        {
+            return new JsonResult(productService.findAllAjax());
+        }
+        return new JsonResult(productService.searchByKeywordAjax(keyword));
+    }
+
+    [Route("searchByCategoryAjax")]
+    public IActionResult SearchByCategoryAjax(int categoryId)
+    {
+        if (categoryId == -1)
+        {
+            return new JsonResult(productService.findAllAjax());
+        }
+        return new JsonResult(productService.searchByCategoryAjax(categoryId));
+    }
+   
+
+    [Route("getProductById")]
+    public IActionResult GetProductById(int id)
+    {
+        return new JsonResult(productService.getProductById(id));
+    }
     [Route("detail/{id}")]
     public IActionResult Detail(int id)
     {
@@ -115,13 +153,13 @@ public class ProductController : Controller
     }
 
     //update
-   
+
     [HttpGet]
     [Route("update/{id}")]
     public IActionResult Update(int id)
     {
         var product = productService.findById(id);
-     //   ViewBag.categories = categoryService.findAll();
+        //   ViewBag.categories = categoryService.findAll();
         return View("update", product);
     }
 
@@ -130,7 +168,7 @@ public class ProductController : Controller
     public IActionResult Update(int id, Product product, IFormFile file)
     {
         product.Id = id;
-        if(file != null)
+        if (file != null)
         {
             var fileName = FileHelper.generateFileName(file.FileName);
 

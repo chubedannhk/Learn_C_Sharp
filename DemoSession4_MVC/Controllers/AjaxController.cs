@@ -13,7 +13,7 @@ public class AjaxController : Controller
         accountService = _accountService;
         productService = _productService;
     }
-    [Route("~/")]
+   // [Route("~/")]
     [Route("index")]
     [Route("")]
     public IActionResult Index()
@@ -67,12 +67,12 @@ public class AjaxController : Controller
     {
         return new JsonResult(new
         {
-            valig = accountService.Login(username,password)
+            valig = accountService.Login(username, password)
         });
     }
 
     // ham cua demo5
-   
+
     [Route("find")]
     public IActionResult findByIdAjax()
     {
@@ -83,5 +83,11 @@ public class AjaxController : Controller
     public IActionResult findAllAjax()
     {
         return new JsonResult(productService.findAllAjax());
+    }
+    [Route("searchAotuComplete")]
+    public IActionResult SearchAotuComplete(string term)
+    {
+        return new JsonResult(productService.searchAutoComplete(term));
+
     }
 }
