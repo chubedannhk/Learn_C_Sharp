@@ -80,6 +80,20 @@ public class AccountController : Controller
         return View();
     }
 
+    // logout  
+    [Route("logout")]
+    public IActionResult Logout()
+    {
+        HttpContext.Session.Remove("username");
+        return RedirectToAction("login");
+    }
+    // accessDenied
+    [Route("accessDenied")]
+    public IActionResult AccessDenied()
+    {
+        return View();
+    }
+
 
     //  [Route("~/")]
     [Route("")]

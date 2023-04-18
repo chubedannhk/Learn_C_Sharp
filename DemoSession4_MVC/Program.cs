@@ -1,4 +1,5 @@
 ﻿
+using DemoSession4_MVC.Middlewares;
 using DemoSession4_MVC.Models;
 using DemoSession4_MVC.Service;
 using Microsoft.EntityFrameworkCore;
@@ -30,12 +31,19 @@ builder.Services.AddControllersWithViews();
 
 //=======
 var app = builder.Build();
+
 // khai bao de su dung session
-
-
+app.UseSession();
+// goi ra middleware
+app.UseMiddleware<AdminMiddleware>();
+app.UseMiddleware<Log1Middleware>();
+app.UseMiddleware<SecurityMiddleware>();
+app.UseMiddleware<Log2Middleware>();
+app.UseMiddleware<Log3Middleware>();
+app.UseMiddleware<AuthorizedMiddleware>();
 // đi vào fodder www để lấy hình ảnh
 app.UseStaticFiles();
-app.UseSession();
+
 //================================
 //app.MapControllerRoute(name: "default", pattern: "{controller=demo}/{action=index}");
 app.MapControllerRoute(name: "default", pattern: "{controller}/{action}");

@@ -32,7 +32,7 @@ public class ProductController : Controller
 
 
 
-    [Route("~/")]
+    //[Route("~/")]
     [Route("index2")]
     public IActionResult Index2()
     {
