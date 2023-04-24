@@ -1,4 +1,5 @@
 ﻿using DemoSession1_MVC.Helpers;
+using DemoSession4_MVC.Helpers;
 using DemoSession4_MVC.Models;
 using DemoSession4_MVC.Service;
 using Microsoft.AspNetCore.Hosting;
@@ -9,11 +10,13 @@ namespace DemoSession4_MVC.Controllers;
 public class AccountController : Controller
 {
     private AccountService accountService;
-    public AccountController(AccountService _accountService)
+    private IConfiguration configuration;
+    public AccountController(AccountService _accountService, IConfiguration _configuration)
     {
         accountService = _accountService;
+        configuration = _configuration;
     }
- //   [Route("~/")]
+    //[Route("~/")]
     [Route("login")]
     public IActionResult Login()
     {
@@ -56,9 +59,17 @@ public class AccountController : Controller
         {
             account.Password = BCrypt.Net.BCrypt.HashPassword(account.Password);
             // tam thoi cho status bang true de dang nhap
-            account.Status = true;
+         //   account.Status = true;
+         // đầu tiên cho account là status là false
+            account.Status = false;
+            // Tạo securityCode ngẫu nhiên trong Helper -> RandomHelper
+            account.SecutiryCode = RandomHelper.RandomString(6);
             if (accountService.Create(account))
             {
+                // gui mail kich hoat tai khoan
+                var content = "<a href='http://localhost:5020/account/verify?email="+account.Email + "$securitycode="+account.SecutiryCode + "'>Nhan vao link de kich hoat tai khoan</a>";
+                var mailHelper = new MailHelper(configuration);
+                mailHelper.Send(configuration["Gmail:Username"], account.Email, "Verify", content);
                 return RedirectToAction("Login");
             }
             else
@@ -71,6 +82,34 @@ public class AccountController : Controller
         {
             return View("register");
         }
+    }
+
+    // welcome page 
+    [Route("verify")]
+    public IActionResult Verify(string email, string securitycode)
+    {
+       var account = accountService.findByEmailNoTracking(email);
+        if(account != null)
+        {
+            if(account.SecutiryCode == securitycode)
+            {
+                account.Status = true;
+                if (accountService.Update(account))
+                {
+                    return RedirectToAction("login");
+                }
+            }
+            else
+            {
+                ViewBag.msg = "Security Code khong hop le";
+            }
+        }
+        else
+        {
+            ViewBag.msg = "Email khong hop le";
+        }
+        return View("Failde");
+       
     }
     // welcome page 
     [Route("welcome")]

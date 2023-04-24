@@ -70,21 +70,30 @@ public class AccountServiceImpl : AccountService
     //}
     public bool Update(Account account)
     {
+        //try
+        //{
+        //    var accountToUpdate = db.Accounts.Find(account.Id);
+        //    if (accountToUpdate == null)
+        //    {
+        //        return false;
+        //    }
+        //    accountToUpdate.Username = account.Username;
+        //    accountToUpdate.Password = account.Password;
+        //    accountToUpdate.Email = account.Email;
+        //    accountToUpdate.Status = account.Status;
+
+        //    db.SaveChanges();
+
+        //    return true;
+        //}
+        //catch
+        //{
+        //    return false;
+        //}
         try
         {
-            var accountToUpdate = db.Accounts.Find(account.Id);
-            if (accountToUpdate == null)
-            {
-                return false;
-            }
-            accountToUpdate.Username = account.Username;
-            accountToUpdate.Password = account.Password;
-            accountToUpdate.Email = account.Email;
-            accountToUpdate.Status = account.Status;
-
-            db.SaveChanges();
-
-            return true;
+            db.Entry(account).State = EntityState.Modified;
+            return db.SaveChanges() > 0;
         }
         catch
         {
@@ -115,5 +124,8 @@ public class AccountServiceImpl : AccountService
         
     }
 
-   
+    public Account findByEmailNoTracking(string email)
+    {
+        return db.Accounts.AsNoTracking().SingleOrDefault(a => a.Email == email);
+    }
 }

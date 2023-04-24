@@ -7,7 +7,7 @@ namespace DemoSession4_MVC.Controllers;
 [Route("demo3")]
 public class Demo3Controller : Controller
 {
-    [Route("~/")]
+  //  [Route("~/")]
     [Route("index")]
     [Route("")]
     public IActionResult Index()

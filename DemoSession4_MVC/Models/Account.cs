@@ -17,6 +17,8 @@ public partial class Account
 
     public bool Status { get; set; }
 
+    public string? SecutiryCode { get; set; }
+
     public virtual ICollection<Invoice> Invoices { get; } = new List<Invoice>();
 
     public virtual ICollection<Role> Roles { get; } = new List<Role>();

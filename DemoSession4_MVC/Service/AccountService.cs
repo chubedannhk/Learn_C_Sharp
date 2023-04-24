@@ -17,6 +17,6 @@ public interface AccountService
 
     public bool Login(string username, string password);
 
-  
+    public Account findByEmailNoTracking(string email);
 
 }
