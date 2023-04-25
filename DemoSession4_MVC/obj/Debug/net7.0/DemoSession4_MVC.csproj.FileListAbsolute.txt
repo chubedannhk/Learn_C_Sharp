@@ -74,3 +74,17 @@ C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\bin\Debug\net7.0\run
 C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\DemoSession4_MVC.csproj.CopyComplete
 C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\bin\Debug\net7.0\DemoSession4_MVC.staticwebassets.runtime.json
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\bin\Debug\net7.0\en-US\DemoSession4_MVC.resources.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\bin\Debug\net7.0\fr-FR\DemoSession4_MVC.resources.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\bin\Debug\net7.0\ja-JP\DemoSession4_MVC.resources.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\bin\Debug\net7.0\vi-VN\DemoSession4_MVC.resources.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\DemoSession4_MVC.Resources.MyMessage.resources
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\DemoSession4_MVC.Resources.MyMessage.en-US.resources
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\DemoSession4_MVC.Resources.MyMessage.fr-FR.resources
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\DemoSession4_MVC.Resources.MyMessage.ja-JP.resources
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\DemoSession4_MVC.Resources.MyMessage.vi-VN.resources
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\DemoSession4_MVC.csproj.GenerateResource.cache
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\en-US\DemoSession4_MVC.resources.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\fr-FR\DemoSession4_MVC.resources.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\ja-JP\DemoSession4_MVC.resources.dll
+C:\Users\ACER\Desktop\CSharp\Learn_C_Sharp\DemoSession4_MVC\obj\Debug\net7.0\vi-VN\DemoSession4_MVC.resources.dll

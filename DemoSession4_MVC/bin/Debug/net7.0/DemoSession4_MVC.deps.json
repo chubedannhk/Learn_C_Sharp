@@ -17,6 +17,20 @@
         },
         "runtime": {
           "DemoSession4_MVC.dll": {}
+        },
+        "resources": {
+          "en-US/DemoSession4_MVC.resources.dll": {
+            "locale": "en-US"
+          },
+          "fr-FR/DemoSession4_MVC.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "ja-JP/DemoSession4_MVC.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "vi-VN/DemoSession4_MVC.resources.dll": {
+            "locale": "vi-VN"
+          }
         }
       },
       "Azure.Core/1.24.0": {

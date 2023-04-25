@@ -13,7 +13,7 @@ public class ContactController : Controller
         configuration = _configuration;
     }
 
-    [Route("~/")]
+  //  [Route("~/")]
     [Route("index")]
     [Route("")]
     public IActionResult Index()

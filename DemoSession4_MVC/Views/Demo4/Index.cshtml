@@ -1,0 +1,29 @@
+﻿<a asp-controller="language" asp-action="change" asp-route-cultural="vi-VN">
+    <img src="~/images/vietnam.png" width="70px" height="70px" />
+</a>
+<a asp-controller="language" asp-action="change" asp-route-cultural="fr-FR">
+    <img src="~/images/france.png" width="70px" height="70px" />
+</a>
+<a asp-controller ="language" asp-action="change" asp-route-cultural="ja-JP">
+    <img src="~/images/japan.png" width="70px" height="70px" />
+</a>
+<a asp-controller="language" asp-action="change" asp-route-cultural="en-US">
+    <img src="~/images/united-states.png" width="70px" height="70px" />
+</a>
+
+<br />
+Now: @ViewBag.Now.ToString("F")
+<br />
+Currency : @ViewBag.Currency.ToString("c");
+<br />
+Number: @ViewBag.Number.ToString("n");
+<br />
+Percent: @ViewBag.Percent.ToString("p");
+
+<br />
+Msg: @ViewBag.Msg
+<br/>
+Msg2: @ViewBag.Msg2
+
+<br />
+Msg: @myMessage["Thật là vô tri"]
