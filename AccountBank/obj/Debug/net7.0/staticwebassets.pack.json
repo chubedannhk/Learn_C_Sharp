@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\Images\\signup-bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\signup-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\Images\\users.png",
+      "PackagePath": "staticwebassets\\Images\\users.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\material-icon\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\fonts\\material-icon\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\material-icon\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\fonts\\material-icon\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\montserrat-v12-latin-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\montserrat-v12-latin-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\montserrat-v12-latin-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\montserrat-v12-latin-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\montserrat-v12-latin-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\montserrat-v12-latin-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\montserrat-v12-latin-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\montserrat-v12-latin-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\fonts\\montserrat\\montserrat-v12-latin-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\montserrat-v12-latin-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\vendor\\jquery\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\CSharp\\Learn_C_Sharp\\AccountBank\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AccountBank.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AccountBank.props",
+      "PackagePath": "build\\AccountBank.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AccountBank.props",
+      "PackagePath": "buildMultiTargeting\\AccountBank.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AccountBank.props",
+      "PackagePath": "buildTransitive\\AccountBank.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

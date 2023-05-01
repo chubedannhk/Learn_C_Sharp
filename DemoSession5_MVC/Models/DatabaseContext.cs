@@ -15,60 +15,54 @@ public partial class DatabaseContext : DbContext
     {
     }
 
-    public virtual DbSet<Customer> Customers { get; set; }
+    public virtual DbSet<Account> Accounts { get; set; }
 
-    public virtual DbSet<Order> Orders { get; set; }
+    public virtual DbSet<TransactionDetail> TransactionDetails { get; set; }
 
-//    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-//        => optionsBuilder.UseSqlServer("Server=NGUYENHOANGKHAI\\SQLEXPRESS;Database=QuanLyHoaDon;user id=sa;password=Nhk2503##;trusted_connection=true;encrypt=false");
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server=NGUYENHOANGKHAI\\SQLEXPRESS;Database=AccountBank;user id=sa;password=Nhk2503##;trusted_connection=true;encrypt=false");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Customer>(entity =>
+        modelBuilder.Entity<Account>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Customer__3214EC079C0A3EE9");
+            entity.HasKey(e => e.AccId).HasName("PK__Account__91CBC398FB523958");
 
-            entity.ToTable("Customer");
+            entity.ToTable("Account");
 
-            entity.Property(e => e.Address)
+            entity.Property(e => e.AccId).HasColumnName("AccID");
+            entity.Property(e => e.Balance).HasColumnType("decimal(18, 0)");
+            entity.Property(e => e.Email)
                 .HasMaxLength(250)
-                .IsUnicode(false)
-                .HasColumnName("address");
-            entity.Property(e => e.Birthday)
-                .HasColumnType("date")
-                .HasColumnName("birthday");
-            entity.Property(e => e.Name)
+                .IsUnicode(false);
+            entity.Property(e => e.Fullname)
                 .HasMaxLength(250)
-                .IsUnicode(false)
-                .HasColumnName("name");
+                .IsUnicode(false);
+            entity.Property(e => e.Password)
+                .HasMaxLength(250)
+                .IsUnicode(false);
             entity.Property(e => e.Phone)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("phone");
+                .HasMaxLength(250)
+                .IsUnicode(false);
+            entity.Property(e => e.Username)
+                .HasMaxLength(250)
+                .IsUnicode(false);
         });
 
-        modelBuilder.Entity<Order>(entity =>
+        modelBuilder.Entity<TransactionDetail>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Orders__3214EC07B6783AD8");
+            entity.HasKey(e => e.TransId).HasName("PK__Transact__9E5DDB3C915140BA");
 
-            entity.Property(e => e.Customerid).HasColumnName("customerid");
-            entity.Property(e => e.Datecreation)
-                .HasColumnType("date")
-                .HasColumnName("datecreation");
-            entity.Property(e => e.Name)
-                .HasMaxLength(250)
-                .IsUnicode(false)
-                .HasColumnName("name");
-            entity.Property(e => e.Payments)
-                .HasMaxLength(250)
-                .IsUnicode(false)
-                .HasColumnName("payments");
-            entity.Property(e => e.Status).HasColumnName("status");
+            entity.Property(e => e.AccId).HasColumnName("AccID");
+            entity.Property(e => e.DateOfTrans)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("date");
+            entity.Property(e => e.TransMonry).HasColumnType("decimal(18, 0)");
 
-            entity.HasOne(d => d.Customer).WithMany(p => p.Orders)
-                .HasForeignKey(d => d.Customerid)
-                .HasConstraintName("fk_Orders_Customer");
+            entity.HasOne(d => d.Acc).WithMany(p => p.TransactionDetails)
+                .HasForeignKey(d => d.AccId)
+                .HasConstraintName("fk_Trans_Acc");
         });
 
         OnModelCreatingPartial(modelBuilder);
