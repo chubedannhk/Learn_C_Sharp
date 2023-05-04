@@ -13,7 +13,10 @@ public interface AccountService
     public bool Login(string username, string password);
 
     public Account findByUsername(string username);
+    public Account GetAccountById(int accid);
 
     //update tai khoan
     public bool Update(Account account);
+    //public bool UpdateBalance(Account account);
+    public bool UpdateBalance(int accountId, decimal newBalance);
 }

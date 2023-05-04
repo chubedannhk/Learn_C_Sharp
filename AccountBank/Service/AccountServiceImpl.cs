@@ -31,7 +31,7 @@ public class AccountServiceImpl : AccountService
         return db.Accounts.Count(a => a.Username == username) > 0;
     }
 
-   
+
 
     // login tai khoan
     public bool Login(string username, string password)
@@ -60,7 +60,7 @@ public class AccountServiceImpl : AccountService
     // update tai khoan
     public bool Update(Account account)
     {
-       
+
         try
         {
             var accountToUpdate = db.Accounts.FirstOrDefault(a => a.Username == account.Username);
@@ -84,4 +84,41 @@ public class AccountServiceImpl : AccountService
         }
     }
 
+    public Account GetAccountById(int accid)
+    {
+        return db.Accounts.Find(accid);
+    }
+
+    //public bool UpdateBalance(Account account)
+    //{
+
+    //    try
+    //    {
+    //        db.Entry(account).State = EntityState.Modified;
+    //        return db.SaveChanges() > 0;
+    //    }
+    //    catch
+    //    {
+    //        return false;
+    //    }
+
+    //}
+
+    public bool UpdateBalance(int accountId, decimal newBalance)
+    {
+        try
+        {
+            var account = db.Accounts.Find(accountId);
+            if (account == null) return false;
+
+            account.Balance = newBalance;
+            db.Entry(account).Property(x => x.Balance).IsModified = true;
+
+            return db.SaveChanges() > 0;
+        }
+        catch
+        {
+            return false;
+        }
+    }
 }

@@ -9,7 +9,7 @@ public partial class TransactionDetail
 
     public int? AccId { get; set; }
 
-    public decimal? TransMonry { get; set; }
+    public decimal TransMonry { get; set; }
 
     public int? TransType { get; set; }
 

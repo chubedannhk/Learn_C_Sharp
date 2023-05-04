@@ -7,4 +7,7 @@ public interface TransactionDetailService
     public List<TransactionDetail> searchTrans(int accid);
 
     public List<TransactionDetail> searchTransWithDraw(int accid);
+
+    public bool CreateTransactionDetail(TransactionDetail transaction);
+
 }

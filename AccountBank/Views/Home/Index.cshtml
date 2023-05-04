@@ -187,13 +187,15 @@
                     <div class="row">
                         <div class="col-50">
                             <h3>Information Of @ViewBag.username</h3>
+
                             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
                             <input type="text" value="@ViewBag.fullname" asp-for="Fullname" readonly>
+
                             <label for="email"><i class="fa fa-envelope"></i> Email</label>
                             <input type="email" value="@ViewBag.email" asp-for="Email" readonly>
+
                             <label for="adr"><i class="fa fa-address-card-o"></i> Phone Number</label>
                             <input type="number" value="@ViewBag.phone" asp-for="Phone" readonly>
-
                         
                         </div>
                     </div>
@@ -215,8 +217,8 @@
                 <hr>
                 <p>Surplus <span class="price" style="color:black"><b> @ViewBag.balance</b> <i>VND</i></span></p>
 
-                <button class="btn_des">Depositing</button>
-                <button class="btn_draw">WithDraw</button>
+                <a asp-controller="bank" asp-action="index" asp-route-id="@ViewBag.accid"><button class="btn_des">Depositing</button></a>
+                <a asp-controller="bank" asp-action="index" asp-route-id="@ViewBag.accid"> <button class="btn_draw">WithDraw</button></a>
                 <a asp-controller="home" asp-action="history" asp-route-id="@ViewBag.accid"><button class="btn_his">History of Accounts</button></a>
             </div>
         </div>

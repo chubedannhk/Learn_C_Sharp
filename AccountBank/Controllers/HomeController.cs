@@ -28,6 +28,20 @@ public class HomeController : Controller
         ViewBag.fullname = HttpContext.Session.GetString("fullname") ?? "";
         ViewBag.balance = HttpContext.Session.GetString("balance") ?? "";
         ViewBag.accid = HttpContext.Session.GetString("accid") ?? "";
+        decimal balance;
+        if (decimal.TryParse(HttpContext.Session.GetString("balance"), out balance))
+        {
+            ViewBag.balance = balance;
+        }
+        else
+        {
+            ViewBag.balance = 0; // hoặc giá trị mặc định nếu không thể parse đc dữ liệu balance từ session
+        }
+
+
+        ViewBag.email = TempData["email"]?.ToString() ?? ViewBag.email;
+        ViewBag.phone = TempData["phone"]?.ToString() ?? ViewBag.phone;
+        ViewBag.fullname = TempData["fullname"]?.ToString() ?? ViewBag.fullname;
         return View();
     }
     
@@ -56,11 +70,15 @@ public class HomeController : Controller
             // Truyền thông tin tài khoản vào ViewBag để hiển thị lên View
             ViewBag.Account = updatedAccount;
             TempData["msg"] = "Update Success";
+            TempData["email"] = updatedAccount.Email;
+            TempData["phone"] = updatedAccount.Phone;
+            TempData["fullname"] = updatedAccount.Fullname;
         }
         else
         {
             TempData["msg"] = "Update Failed";
         }
+      
         return RedirectToAction("index", "home", new { username = username });
     }
 
@@ -83,9 +101,12 @@ public class HomeController : Controller
     public IActionResult Draw(int id)
     {
         List<TransactionDetail> transactionss = transactionDetailService.searchTransWithDraw(id);
-        ViewBag.Transactionsdraw = transactionss;
+        ViewBag.Transactions = transactionss;
+        //   ViewBag.Transactionsdraw = transactionss;
         ViewBag.accid = id;
         return View("history");
     }
+
     
+
 }
