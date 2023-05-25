@@ -48,6 +48,34 @@
                 <button value="Update">Update</button>
             </td>
         </tr>
-      
     </table>
+</form>
+<br /><br />
+
+@* thanh toán với paypal*@
+<form method="post" action="@ViewBag.postUrl">
+   @* // mac dinh value la 1 *@
+    <input type="hidden" name="upload" value="1" />
+@*    valua gui ve duong dan*@
+    <input type="hidden" name="return" value="@ViewBag.returnUrl" />
+
+    <input type="hidden" name="cmd" value="_cart" />
+  @*  // doc business muon nhan tien ra*@
+    <input type="hidden" name="business" value="@ViewBag.business" />
+
+@*    // khai bao khoi C# de khai bao bien index*@
+    @{
+        int index = 1;
+    }
+     @foreach (var item in ViewBag.cart)
+    {
+        // name ="item_number_xxx" do paypal quy dinh
+        <input type="hidden" name="item_number_@index" value="@item.Product.Id" />
+        <input type="hidden" name="item_name_@index" value="@item.Product.Name" />
+        <input type="hidden" name="amount_@index" value="@item.Product.Price" />
+        <input type="hidden" name="quantity_@index" value="@item.Quantity" />
+        index++;
+    }
+
+    <input type="submit" value="Submit" />
 </form>

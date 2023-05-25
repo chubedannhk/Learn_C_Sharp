@@ -2,15 +2,18 @@
 using DemoSesion2_MVC.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 namespace DemoSesion2_MVC.Controllers;
 [Route("cart")]
 public class CartController : Controller
 {
     private ProductService productService;
-    public CartController(ProductService _productService)
+    private IConfiguration configuration;
+    public CartController(ProductService _productService, IConfiguration _configuration)
     {
         productService = _productService;
+        configuration = _configuration;
     }
     [Route("")]
     [Route("index")]
@@ -23,6 +26,11 @@ public class CartController : Controller
             // tinh tong tien san pham 
             ViewBag.total = cart.Sum(i => i.Product.Price * i.Quantity);
         }
+        // khai bao duong dan den paypal
+
+        ViewBag.postUrl = configuration["PayPal:PostUrl"];
+        ViewBag.returnUrl = configuration["PayPal:ReturnUrl"];
+        ViewBag.business = configuration["PayPal:Business"];
         return View("Index");
     }
     // ham xu ly mua san pham
@@ -110,4 +118,17 @@ public class CartController : Controller
         HttpContext.Session.SetString("cart", JsonConvert.SerializeObject(cart));
         return RedirectToAction("index");
     }
-}
+
+    // XU LÝ VỚI PAYPAL
+    [Route("success")]
+    public IActionResult Success(string payer_email, string first_name, string last_name, string address_street)
+    {
+        Debug.WriteLine("Payer Email: " + payer_email);
+        Debug.WriteLine("First name: " + first_name);
+        Debug.WriteLine("Last name: " + last_name);
+        Debug.WriteLine("Address street: " + address_street);
+        // gửi email cho khach hang thong tin giao dich
+
+        return View("Success");
+    }
+ }

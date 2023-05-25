@@ -15,7 +15,7 @@ public class ProductServiceImpl : ProductService
                Id = 1,
                Name = "Test",
                Photo = "angel.png",
-               Price = 2343,
+               Price = 2,
                Created = DateTime.ParseExact("20/10/2023","dd/MM/yyyy",CultureInfo.InvariantCulture),
            },
            new Product()
@@ -23,7 +23,7 @@ public class ProductServiceImpl : ProductService
                Id = 2,
                Name = "Time",
                Photo = "girlviet.png",
-               Price = 2243,
+               Price = 3,
                Created = DateTime.ParseExact("20/11/2023","dd/MM/yyyy",CultureInfo.InvariantCulture),
            },
             new Product()
@@ -31,7 +31,7 @@ public class ProductServiceImpl : ProductService
                Id = 3,
                Name = "Name",
                Photo = "girlviet.png",
-               Price = 1943,
+               Price = 9,
                Created = DateTime.Now,
            }
 
